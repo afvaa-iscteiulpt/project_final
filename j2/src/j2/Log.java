@@ -25,15 +25,19 @@ public class Log {
 			error = "ERROR ";
 		}
 			
+		FileWriter aWriter = new FileWriter(file, true);
+		aWriter.write(initial + getTimeStamp() + " " + error + logText + "\n");
+		aWriter.flush();
+	}
+	
+	public String getTimeStamp() {
 		TimeZone tz = TimeZone.getTimeZone("Europe/Lisbon");
 		Date now = new Date();
 		DateFormat df = new SimpleDateFormat ("yyyy.MM.dd hh:mm:ss ");
 		df.setTimeZone(tz);
 		String currentTime = df.format(now);
-
-		FileWriter aWriter = new FileWriter(file, true);
-		aWriter.write(initial + currentTime + " " + error + logText + "\n");
-		aWriter.flush();
+		
+		return currentTime;
 	}
 
 }

@@ -1,7 +1,73 @@
 
 
-2018.05.14 04:47:49  LogFile Ready.
-2018.05.14 04:47:49  ConfigFile Ready.
-2018.05.14 04:47:49  Starting program.
-2018.05.14 04:47:49  Program started.
-2018.05.14 04:47:49  Program finished.
+2018.05.17 06:16:21  LogFile Ready.
+2018.05.17 06:16:22  ConfigFile Ready.
+2018.05.17 06:16:22  Starting program.
+2018.05.17 06:16:22  Program started.
+2018.05.17 06:16:22  Connected to mongoDb
+2018.05.17 06:16:22  Connected to database 'sid_2018'
+2018.05.17 06:16:22  Connected to collection 'sensor_messages'
+2018.05.17 06:16:22  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho9103127436235sid18
+2018.05.17 06:16:24  Connected to broker.
+2018.05.17 06:16:24  Subscribing topic: worldsid18
+2018.05.17 06:16:24  Topic subscribed.
+2018.05.17 06:16:24  Listening for new messages
+2018.05.17 06:16:24  Program finished.
+
+
+2018.05.17 06:18:51  LogFile Ready.
+2018.05.17 06:18:51  ConfigFile Ready.
+2018.05.17 06:18:51  Starting program.
+2018.05.17 06:18:51  Program started.
+2018.05.17 06:18:52  Connected to mongoDb
+2018.05.17 06:18:52  Connected to database 'sid_2018'
+2018.05.17 06:18:52  Connected to collection 'sensor_messages'
+2018.05.17 06:18:52  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho9252910540057sid18
+2018.05.17 06:18:54  Connected to broker.
+2018.05.17 06:18:54  Subscribing topic: worldsid18
+2018.05.17 06:18:54  Topic subscribed.
+2018.05.17 06:18:54  Listening for new messages
+2018.05.17 06:18:54  Program finished.
+2018.05.17 06:19:04  New message received at: 2018.05.17 06:19:04 . Sending to MongoDB.
+2018.05.17 06:19:04  Parsing new message.
+2018.05.17 06:19:04  Sending new message to mongoDb.
+2018.05.17 06:19:04  Message sent to mongoDb.
+2018.05.17 06:19:14  New message received at: 2018.05.17 06:19:14 . Sending to MongoDB.
+2018.05.17 06:19:14  Parsing new message.
+2018.05.17 06:19:14  Sending new message to mongoDb.
+2018.05.17 06:19:14  Message sent to mongoDb.
+2018.05.17 06:19:15  New message received at: 2018.05.17 06:19:15 . Sending to MongoDB.
+2018.05.17 06:19:15  Parsing new message.
+2018.05.17 06:19:15  Sending new message to mongoDb.
+2018.05.17 06:19:15  Message sent to mongoDb.
+2018.05.17 06:19:16  New message received at: 2018.05.17 06:19:16 . Sending to MongoDB.
+2018.05.17 06:19:16  Parsing new message.
+2018.05.17 06:19:16  Sending new message to mongoDb.
+2018.05.17 06:19:16  Message sent to mongoDb.
+2018.05.17 06:19:17  New message received at: 2018.05.17 06:19:17 . Sending to MongoDB.
+2018.05.17 06:19:17  Parsing new message.
+2018.05.17 06:19:17  Sending new message to mongoDb.
+2018.05.17 06:19:17  Message sent to mongoDb.
+
+
+2018.05.17 06:19:59  LogFile Ready.
+2018.05.17 06:19:59  ConfigFile Ready.
+2018.05.17 06:19:59  Starting program.
+2018.05.17 06:19:59  Program started.
+2018.05.17 06:20:00  Connected to mongoDb
+2018.05.17 06:20:00  Connected to database 'sid_2018'
+2018.05.17 06:20:00  Connected to collection 'sensor_messages'
+2018.05.17 06:20:00  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho9320556910752sid18
+2018.05.17 06:20:01  Connected to broker.
+2018.05.17 06:20:01  Subscribing topic: worldsid18
+2018.05.17 06:20:01  Topic subscribed.
+2018.05.17 06:20:01  Listening for new messages
+2018.05.17 06:20:01  Program finished.
+2018.05.17 06:20:11  New message received at: 2018.05.17 06:20:11 . Sending to MongoDB.
+2018.05.17 06:20:11  Parsing new message.
+2018.05.17 06:20:11  Sending new message to mongoDb.
+2018.05.17 06:20:11  Message sent to mongoDb.
+2018.05.17 06:21:00  New message received at: 2018.05.17 06:21:00 . Sending to MongoDB.
+2018.05.17 06:21:00  Parsing new message.
+2018.05.17 06:21:00  Sending new message to mongoDb.
+2018.05.17 06:21:00  Message sent to mongoDb.
