@@ -23,7 +23,7 @@ public class J1 {
 		Sybase sybase = new Sybase(confFile, logFile);
 		MongoDB mongo = new MongoDB(confFile, logFile);
 
-		// cicle every "periodicity"
+		// cycle every "periodicity"
 		executorService.scheduleAtFixedRate(new Runnable() {
 			@Override
 			public void run() {
@@ -41,7 +41,7 @@ public class J1 {
 	public static void startCicle(Log logFile, MongoDB mongo, Sybase sybase)
 			throws IOException, ParseException, SQLException {
 
-		logFile.log("Cycle started.", TypeLog.NORMAL);
+		logFile.log("Cycle started. Get data from MongoDB", TypeLog.NORMAL);
 
 		mongo.getDataFromMongoDb();
 		String sqlString = mongo.prepareDataToSybase();
@@ -49,7 +49,7 @@ public class J1 {
 		// insert query to sybase
 		sybase.insertToSybase(sqlString);
 
-		logFile.log("Cycle ended.", TypeLog.NORMAL);
+		logFile.log("Cycle ended. Data inserted to Sybase.", TypeLog.NORMAL);
 
 	}
 
