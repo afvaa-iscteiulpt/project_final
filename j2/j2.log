@@ -71,3 +71,1173 @@
 2018.05.17 06:21:00  Parsing new message.
 2018.05.17 06:21:00  Sending new message to mongoDb.
 2018.05.17 06:21:00  Message sent to mongoDb.
+
+
+2018.05.17 06:37:02  LogFile Ready.
+2018.05.17 06:37:02  ConfigFile Ready.
+2018.05.17 06:37:02  Starting program.
+2018.05.17 06:37:02  Program started.
+2018.05.17 06:37:03  Connected to mongoDb
+2018.05.17 06:37:03  Connected to database 'sid_2018'
+2018.05.17 06:37:03  Connected to collection 'sensor_messages'
+2018.05.17 06:37:03  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho10343647173233sid18
+2018.05.17 06:37:05  Connected to broker.
+2018.05.17 06:37:05  Subscribing topic: worldsid18
+2018.05.17 06:37:05  Topic subscribed.
+2018.05.17 06:37:05  Listening for new messages
+2018.05.17 06:37:05  Program finished.
+
+
+2018.05.17 06:38:10  LogFile Ready.
+2018.05.17 06:38:11  ConfigFile Ready.
+2018.05.17 06:38:11  Starting program.
+2018.05.17 06:38:11  Program started.
+2018.05.17 06:38:11  Connected to mongoDb
+2018.05.17 06:38:11  Connected to database 'sid_2018'
+2018.05.17 06:38:11  Connected to collection 'sensor_messages'
+2018.05.17 06:38:11  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho10412082195647sid18
+2018.05.17 06:38:13  Connected to broker.
+2018.05.17 06:38:13  Subscribing topic: sid_lab_2018
+2018.05.17 06:38:13  Topic subscribed.
+2018.05.17 06:38:13  Listening for new messages
+2018.05.17 06:38:13  New message received at: 2018.05.17 06:38:13 . Sending to MongoDB.
+2018.05.17 06:38:13  Program finished.
+2018.05.17 06:38:13  Parsing new message.
+2018.05.17 06:38:13  Sending new message to mongoDb.
+2018.05.17 06:38:13  Message sent to mongoDb.
+2018.05.17 06:38:14  New message received at: 2018.05.17 06:38:14 . Sending to MongoDB.
+2018.05.17 06:38:14  Parsing new message.
+2018.05.17 06:38:14  Sending new message to mongoDb.
+2018.05.17 06:38:14  Message sent to mongoDb.
+2018.05.17 06:38:19  New message received at: 2018.05.17 06:38:19 . Sending to MongoDB.
+2018.05.17 06:38:19  Parsing new message.
+2018.05.17 06:38:19  Sending new message to mongoDb.
+2018.05.17 06:38:19  Message sent to mongoDb.
+2018.05.17 06:38:25  New message received at: 2018.05.17 06:38:25 . Sending to MongoDB.
+2018.05.17 06:38:25  Parsing new message.
+2018.05.17 06:38:25  Sending new message to mongoDb.
+2018.05.17 06:38:25  Message sent to mongoDb.
+2018.05.17 06:38:30  New message received at: 2018.05.17 06:38:30 . Sending to MongoDB.
+2018.05.17 06:38:30  Parsing new message.
+2018.05.17 06:38:30  Sending new message to mongoDb.
+2018.05.17 06:38:30  Message sent to mongoDb.
+2018.05.17 06:38:35  New message received at: 2018.05.17 06:38:35 . Sending to MongoDB.
+2018.05.17 06:38:35  Parsing new message.
+2018.05.17 06:38:35  Sending new message to mongoDb.
+2018.05.17 06:38:35  Message sent to mongoDb.
+2018.05.17 06:38:41  New message received at: 2018.05.17 06:38:41 . Sending to MongoDB.
+2018.05.17 06:38:41  Parsing new message.
+2018.05.17 06:38:41  Sending new message to mongoDb.
+2018.05.17 06:38:41  Message sent to mongoDb.
+2018.05.17 06:38:46  New message received at: 2018.05.17 06:38:46 . Sending to MongoDB.
+2018.05.17 06:38:46  Parsing new message.
+2018.05.17 06:38:46  Sending new message to mongoDb.
+2018.05.17 06:38:46  Message sent to mongoDb.
+2018.05.17 06:38:52  New message received at: 2018.05.17 06:38:52 . Sending to MongoDB.
+2018.05.17 06:38:52  Parsing new message.
+2018.05.17 06:38:52  Sending new message to mongoDb.
+2018.05.17 06:38:52  Message sent to mongoDb.
+2018.05.17 06:38:57  New message received at: 2018.05.17 06:38:57 . Sending to MongoDB.
+2018.05.17 06:38:57  Parsing new message.
+2018.05.17 06:38:57  Sending new message to mongoDb.
+2018.05.17 06:38:57  Message sent to mongoDb.
+2018.05.17 06:39:02  New message received at: 2018.05.17 06:39:02 . Sending to MongoDB.
+2018.05.17 06:39:03  Parsing new message.
+2018.05.17 06:39:03  Sending new message to mongoDb.
+2018.05.17 06:39:03  Message sent to mongoDb.
+2018.05.17 06:39:07  New message received at: 2018.05.17 06:39:07 . Sending to MongoDB.
+2018.05.17 06:39:07  Parsing new message.
+2018.05.17 06:39:07  Sending new message to mongoDb.
+2018.05.17 06:39:07  Message sent to mongoDb.
+2018.05.17 06:39:13  New message received at: 2018.05.17 06:39:13 . Sending to MongoDB.
+2018.05.17 06:39:13  Parsing new message.
+2018.05.17 06:39:13  Sending new message to mongoDb.
+2018.05.17 06:39:13  Message sent to mongoDb.
+2018.05.17 06:39:18  New message received at: 2018.05.17 06:39:18 . Sending to MongoDB.
+2018.05.17 06:39:18  Parsing new message.
+2018.05.17 06:39:18  Sending new message to mongoDb.
+2018.05.17 06:39:18  Message sent to mongoDb.
+2018.05.17 06:39:23  New message received at: 2018.05.17 06:39:23 . Sending to MongoDB.
+2018.05.17 06:39:23  Parsing new message.
+2018.05.17 06:39:23  Sending new message to mongoDb.
+2018.05.17 06:39:23  Message sent to mongoDb.
+2018.05.17 06:39:29  New message received at: 2018.05.17 06:39:29 . Sending to MongoDB.
+2018.05.17 06:39:29  Parsing new message.
+2018.05.17 06:39:29  Sending new message to mongoDb.
+2018.05.17 06:39:29  Message sent to mongoDb.
+2018.05.17 06:39:34  New message received at: 2018.05.17 06:39:34 . Sending to MongoDB.
+2018.05.17 06:39:34  Parsing new message.
+2018.05.17 06:39:34  Sending new message to mongoDb.
+2018.05.17 06:39:34  Message sent to mongoDb.
+2018.05.17 06:39:39  New message received at: 2018.05.17 06:39:39 . Sending to MongoDB.
+2018.05.17 06:39:39  Parsing new message.
+2018.05.17 06:39:39  Sending new message to mongoDb.
+2018.05.17 06:39:39  Message sent to mongoDb.
+2018.05.17 06:39:45  New message received at: 2018.05.17 06:39:45 . Sending to MongoDB.
+2018.05.17 06:39:45  Parsing new message.
+2018.05.17 06:39:45  Sending new message to mongoDb.
+2018.05.17 06:39:45  Message sent to mongoDb.
+2018.05.17 06:39:50  New message received at: 2018.05.17 06:39:50 . Sending to MongoDB.
+2018.05.17 06:39:50  Parsing new message.
+2018.05.17 06:39:50  Sending new message to mongoDb.
+2018.05.17 06:39:50  Message sent to mongoDb.
+2018.05.17 06:39:55  New message received at: 2018.05.17 06:39:55 . Sending to MongoDB.
+2018.05.17 06:39:55  Parsing new message.
+2018.05.17 06:39:55  Sending new message to mongoDb.
+2018.05.17 06:39:55  Message sent to mongoDb.
+2018.05.17 06:40:01  New message received at: 2018.05.17 06:40:01 . Sending to MongoDB.
+2018.05.17 06:40:01  Parsing new message.
+2018.05.17 06:40:01  Sending new message to mongoDb.
+2018.05.17 06:40:01  Message sent to mongoDb.
+2018.05.17 06:40:06  New message received at: 2018.05.17 06:40:06 . Sending to MongoDB.
+2018.05.17 06:40:06  Parsing new message.
+2018.05.17 06:40:06  Sending new message to mongoDb.
+2018.05.17 06:40:06  Message sent to mongoDb.
+2018.05.17 06:40:11  New message received at: 2018.05.17 06:40:11 . Sending to MongoDB.
+2018.05.17 06:40:11  Parsing new message.
+2018.05.17 06:40:11  Sending new message to mongoDb.
+2018.05.17 06:40:11  Message sent to mongoDb.
+2018.05.17 06:40:12  New message received at: 2018.05.17 06:40:12 . Sending to MongoDB.
+2018.05.17 06:40:12  Parsing new message.
+2018.05.17 06:40:12  Sending new message to mongoDb.
+2018.05.17 06:40:12  Message sent to mongoDb.
+2018.05.17 06:40:17  New message received at: 2018.05.17 06:40:17 . Sending to MongoDB.
+2018.05.17 06:40:17  Parsing new message.
+2018.05.17 06:40:17  Sending new message to mongoDb.
+2018.05.17 06:40:17  Message sent to mongoDb.
+2018.05.17 06:40:22  New message received at: 2018.05.17 06:40:22 . Sending to MongoDB.
+2018.05.17 06:40:22  Parsing new message.
+2018.05.17 06:40:22  Sending new message to mongoDb.
+2018.05.17 06:40:22  Message sent to mongoDb.
+2018.05.17 06:40:27  New message received at: 2018.05.17 06:40:27 . Sending to MongoDB.
+2018.05.17 06:40:27  Parsing new message.
+2018.05.17 06:40:27  Sending new message to mongoDb.
+2018.05.17 06:40:27  Message sent to mongoDb.
+2018.05.17 06:40:33  New message received at: 2018.05.17 06:40:33 . Sending to MongoDB.
+2018.05.17 06:40:33  Parsing new message.
+2018.05.17 06:40:33  Sending new message to mongoDb.
+2018.05.17 06:40:33  Message sent to mongoDb.
+2018.05.17 06:40:38  New message received at: 2018.05.17 06:40:38 . Sending to MongoDB.
+2018.05.17 06:40:38  Parsing new message.
+2018.05.17 06:40:38  Sending new message to mongoDb.
+2018.05.17 06:40:38  Message sent to mongoDb.
+2018.05.17 06:40:44  New message received at: 2018.05.17 06:40:44 . Sending to MongoDB.
+2018.05.17 06:40:44  Parsing new message.
+2018.05.17 06:40:44  Sending new message to mongoDb.
+2018.05.17 06:40:44  Message sent to mongoDb.
+2018.05.17 06:40:49  New message received at: 2018.05.17 06:40:49 . Sending to MongoDB.
+2018.05.17 06:40:49  Parsing new message.
+2018.05.17 06:40:49  Sending new message to mongoDb.
+2018.05.17 06:40:49  Message sent to mongoDb.
+2018.05.17 06:40:55  New message received at: 2018.05.17 06:40:55 . Sending to MongoDB.
+2018.05.17 06:40:55  Parsing new message.
+2018.05.17 06:40:55  Sending new message to mongoDb.
+2018.05.17 06:40:55  Message sent to mongoDb.
+2018.05.17 06:41:00  New message received at: 2018.05.17 06:41:00 . Sending to MongoDB.
+2018.05.17 06:41:00  Parsing new message.
+2018.05.17 06:41:00  Sending new message to mongoDb.
+2018.05.17 06:41:00  Message sent to mongoDb.
+2018.05.17 06:41:05  New message received at: 2018.05.17 06:41:05 . Sending to MongoDB.
+2018.05.17 06:41:05  Parsing new message.
+2018.05.17 06:41:05  Sending new message to mongoDb.
+2018.05.17 06:41:05  Message sent to mongoDb.
+2018.05.17 06:41:10  New message received at: 2018.05.17 06:41:10 . Sending to MongoDB.
+2018.05.17 06:41:10  Parsing new message.
+2018.05.17 06:41:10  Sending new message to mongoDb.
+2018.05.17 06:41:10  Message sent to mongoDb.
+2018.05.17 06:41:16  New message received at: 2018.05.17 06:41:16 . Sending to MongoDB.
+2018.05.17 06:41:16  Parsing new message.
+2018.05.17 06:41:16  Sending new message to mongoDb.
+2018.05.17 06:41:16  Message sent to mongoDb.
+2018.05.17 06:41:21  New message received at: 2018.05.17 06:41:21 . Sending to MongoDB.
+2018.05.17 06:41:21  Parsing new message.
+2018.05.17 06:41:21  Sending new message to mongoDb.
+2018.05.17 06:41:21  Message sent to mongoDb.
+2018.05.17 06:41:26  New message received at: 2018.05.17 06:41:26 . Sending to MongoDB.
+2018.05.17 06:41:26  Parsing new message.
+2018.05.17 06:41:26  Sending new message to mongoDb.
+2018.05.17 06:41:26  Message sent to mongoDb.
+2018.05.17 06:41:32  New message received at: 2018.05.17 06:41:32 . Sending to MongoDB.
+2018.05.17 06:41:32  Parsing new message.
+2018.05.17 06:41:32  Sending new message to mongoDb.
+2018.05.17 06:41:32  Message sent to mongoDb.
+2018.05.17 06:41:37  New message received at: 2018.05.17 06:41:37 . Sending to MongoDB.
+2018.05.17 06:41:37  Parsing new message.
+2018.05.17 06:41:37  Sending new message to mongoDb.
+2018.05.17 06:41:37  Message sent to mongoDb.
+2018.05.17 06:41:42  New message received at: 2018.05.17 06:41:42 . Sending to MongoDB.
+2018.05.17 06:41:42  Parsing new message.
+2018.05.17 06:41:42  Sending new message to mongoDb.
+2018.05.17 06:41:42  Message sent to mongoDb.
+2018.05.17 06:41:48  New message received at: 2018.05.17 06:41:48 . Sending to MongoDB.
+2018.05.17 06:41:48  Parsing new message.
+2018.05.17 06:41:48  Sending new message to mongoDb.
+2018.05.17 06:41:48  Message sent to mongoDb.
+2018.05.17 06:41:53  New message received at: 2018.05.17 06:41:53 . Sending to MongoDB.
+2018.05.17 06:41:53  Parsing new message.
+2018.05.17 06:41:53  Sending new message to mongoDb.
+2018.05.17 06:41:53  Message sent to mongoDb.
+2018.05.17 06:41:58  New message received at: 2018.05.17 06:41:58 . Sending to MongoDB.
+2018.05.17 06:41:58  Parsing new message.
+2018.05.17 06:41:58  Sending new message to mongoDb.
+2018.05.17 06:41:58  Message sent to mongoDb.
+2018.05.17 06:42:04  New message received at: 2018.05.17 06:42:04 . Sending to MongoDB.
+2018.05.17 06:42:04  Parsing new message.
+2018.05.17 06:42:04  Sending new message to mongoDb.
+2018.05.17 06:42:04  Message sent to mongoDb.
+2018.05.17 06:42:09  New message received at: 2018.05.17 06:42:09 . Sending to MongoDB.
+2018.05.17 06:42:09  Parsing new message.
+2018.05.17 06:42:09  Sending new message to mongoDb.
+2018.05.17 06:42:09  Message sent to mongoDb.
+2018.05.17 06:42:14  New message received at: 2018.05.17 06:42:14 . Sending to MongoDB.
+2018.05.17 06:42:14  Parsing new message.
+2018.05.17 06:42:14  Sending new message to mongoDb.
+2018.05.17 06:42:14  Message sent to mongoDb.
+2018.05.17 06:42:20  New message received at: 2018.05.17 06:42:20 . Sending to MongoDB.
+2018.05.17 06:42:20  Parsing new message.
+2018.05.17 06:42:20  Sending new message to mongoDb.
+2018.05.17 06:42:20  Message sent to mongoDb.
+2018.05.17 06:42:25  New message received at: 2018.05.17 06:42:25 . Sending to MongoDB.
+2018.05.17 06:42:25  Parsing new message.
+2018.05.17 06:42:25  Sending new message to mongoDb.
+2018.05.17 06:42:25  Message sent to mongoDb.
+2018.05.17 06:42:30  New message received at: 2018.05.17 06:42:30 . Sending to MongoDB.
+2018.05.17 06:42:30  Parsing new message.
+2018.05.17 06:42:30  Sending new message to mongoDb.
+2018.05.17 06:42:30  Message sent to mongoDb.
+2018.05.17 06:42:36  New message received at: 2018.05.17 06:42:36 . Sending to MongoDB.
+2018.05.17 06:42:36  Parsing new message.
+2018.05.17 06:42:36  Sending new message to mongoDb.
+2018.05.17 06:42:36  Message sent to mongoDb.
+2018.05.17 06:42:41  New message received at: 2018.05.17 06:42:41 . Sending to MongoDB.
+2018.05.17 06:42:41  Parsing new message.
+2018.05.17 06:42:41  Sending new message to mongoDb.
+2018.05.17 06:42:41  Message sent to mongoDb.
+2018.05.17 06:42:46  New message received at: 2018.05.17 06:42:46 . Sending to MongoDB.
+2018.05.17 06:42:46  Parsing new message.
+2018.05.17 06:42:46  Sending new message to mongoDb.
+2018.05.17 06:42:46  Message sent to mongoDb.
+2018.05.17 06:42:52  New message received at: 2018.05.17 06:42:52 . Sending to MongoDB.
+2018.05.17 06:42:52  Parsing new message.
+2018.05.17 06:42:52  Sending new message to mongoDb.
+2018.05.17 06:42:52  Message sent to mongoDb.
+2018.05.17 06:42:57  New message received at: 2018.05.17 06:42:57 . Sending to MongoDB.
+2018.05.17 06:42:57  Parsing new message.
+2018.05.17 06:42:57  Sending new message to mongoDb.
+2018.05.17 06:42:57  Message sent to mongoDb.
+2018.05.17 06:43:02  New message received at: 2018.05.17 06:43:02 . Sending to MongoDB.
+2018.05.17 06:43:02  Parsing new message.
+2018.05.17 06:43:02  Sending new message to mongoDb.
+2018.05.17 06:43:02  Message sent to mongoDb.
+2018.05.17 06:43:08  New message received at: 2018.05.17 06:43:08 . Sending to MongoDB.
+2018.05.17 06:43:08  Parsing new message.
+2018.05.17 06:43:08  Sending new message to mongoDb.
+2018.05.17 06:43:08  Message sent to mongoDb.
+2018.05.17 06:43:13  New message received at: 2018.05.17 06:43:13 . Sending to MongoDB.
+2018.05.17 06:43:13  Parsing new message.
+2018.05.17 06:43:13  Sending new message to mongoDb.
+2018.05.17 06:43:13  Message sent to mongoDb.
+2018.05.17 06:43:19  New message received at: 2018.05.17 06:43:19 . Sending to MongoDB.
+2018.05.17 06:43:19  Parsing new message.
+2018.05.17 06:43:19  Sending new message to mongoDb.
+2018.05.17 06:43:19  Message sent to mongoDb.
+2018.05.17 06:43:24  New message received at: 2018.05.17 06:43:24 . Sending to MongoDB.
+2018.05.17 06:43:24  Parsing new message.
+2018.05.17 06:43:24  Sending new message to mongoDb.
+2018.05.17 06:43:24  Message sent to mongoDb.
+2018.05.17 06:43:29  New message received at: 2018.05.17 06:43:29 . Sending to MongoDB.
+2018.05.17 06:43:29  Parsing new message.
+2018.05.17 06:43:29  Sending new message to mongoDb.
+2018.05.17 06:43:29  Message sent to mongoDb.
+2018.05.17 06:43:34  New message received at: 2018.05.17 06:43:34 . Sending to MongoDB.
+2018.05.17 06:43:34  Parsing new message.
+2018.05.17 06:43:34  Sending new message to mongoDb.
+2018.05.17 06:43:34  Message sent to mongoDb.
+2018.05.17 06:43:40  New message received at: 2018.05.17 06:43:40 . Sending to MongoDB.
+2018.05.17 06:43:40  Parsing new message.
+2018.05.17 06:43:40  Sending new message to mongoDb.
+2018.05.17 06:43:40  Message sent to mongoDb.
+2018.05.17 06:43:45  New message received at: 2018.05.17 06:43:45 . Sending to MongoDB.
+2018.05.17 06:43:45  Parsing new message.
+2018.05.17 06:43:45  Sending new message to mongoDb.
+2018.05.17 06:43:45  Message sent to mongoDb.
+2018.05.17 06:43:51  New message received at: 2018.05.17 06:43:51 . Sending to MongoDB.
+2018.05.17 06:43:51  Parsing new message.
+2018.05.17 06:43:51  Sending new message to mongoDb.
+2018.05.17 06:43:51  Message sent to mongoDb.
+2018.05.17 06:43:56  New message received at: 2018.05.17 06:43:56 . Sending to MongoDB.
+2018.05.17 06:43:56  Parsing new message.
+2018.05.17 06:43:56  Sending new message to mongoDb.
+2018.05.17 06:43:56  Message sent to mongoDb.
+2018.05.17 06:44:01  New message received at: 2018.05.17 06:44:01 . Sending to MongoDB.
+2018.05.17 06:44:01  Parsing new message.
+2018.05.17 06:44:01  Sending new message to mongoDb.
+2018.05.17 06:44:01  Message sent to mongoDb.
+2018.05.17 06:44:06  New message received at: 2018.05.17 06:44:06 . Sending to MongoDB.
+2018.05.17 06:44:06  Parsing new message.
+2018.05.17 06:44:06  Sending new message to mongoDb.
+2018.05.17 06:44:06  Message sent to mongoDb.
+2018.05.17 06:44:12  New message received at: 2018.05.17 06:44:12 . Sending to MongoDB.
+2018.05.17 06:44:12  Parsing new message.
+2018.05.17 06:44:12  Sending new message to mongoDb.
+2018.05.17 06:44:12  Message sent to mongoDb.
+2018.05.17 06:44:17  New message received at: 2018.05.17 06:44:17 . Sending to MongoDB.
+2018.05.17 06:44:17  Parsing new message.
+2018.05.17 06:44:17  Sending new message to mongoDb.
+2018.05.17 06:44:17  Message sent to mongoDb.
+2018.05.17 06:44:22  New message received at: 2018.05.17 06:44:22 . Sending to MongoDB.
+2018.05.17 06:44:22  Parsing new message.
+2018.05.17 06:44:22  Sending new message to mongoDb.
+2018.05.17 06:44:22  Message sent to mongoDb.
+2018.05.17 06:44:28  New message received at: 2018.05.17 06:44:28 . Sending to MongoDB.
+2018.05.17 06:44:28  Parsing new message.
+2018.05.17 06:44:28  Sending new message to mongoDb.
+2018.05.17 06:44:28  Message sent to mongoDb.
+2018.05.17 06:44:33  New message received at: 2018.05.17 06:44:33 . Sending to MongoDB.
+2018.05.17 06:44:33  Parsing new message.
+2018.05.17 06:44:33  Sending new message to mongoDb.
+2018.05.17 06:44:33  Message sent to mongoDb.
+2018.05.17 06:44:38  New message received at: 2018.05.17 06:44:38 . Sending to MongoDB.
+2018.05.17 06:44:38  Parsing new message.
+2018.05.17 06:44:38  Sending new message to mongoDb.
+2018.05.17 06:44:38  Message sent to mongoDb.
+2018.05.17 06:44:44  New message received at: 2018.05.17 06:44:44 . Sending to MongoDB.
+2018.05.17 06:44:44  Parsing new message.
+2018.05.17 06:44:44  Sending new message to mongoDb.
+2018.05.17 06:44:44  Message sent to mongoDb.
+2018.05.17 06:44:49  New message received at: 2018.05.17 06:44:49 . Sending to MongoDB.
+2018.05.17 06:44:49  Parsing new message.
+2018.05.17 06:44:49  Sending new message to mongoDb.
+2018.05.17 06:44:49  Message sent to mongoDb.
+2018.05.17 06:44:54  New message received at: 2018.05.17 06:44:54 . Sending to MongoDB.
+2018.05.17 06:44:54  Parsing new message.
+2018.05.17 06:44:55  Sending new message to mongoDb.
+2018.05.17 06:44:55  Message sent to mongoDb.
+2018.05.17 06:45:00  New message received at: 2018.05.17 06:45:00 . Sending to MongoDB.
+2018.05.17 06:45:00  Parsing new message.
+2018.05.17 06:45:00  Sending new message to mongoDb.
+2018.05.17 06:45:00  Message sent to mongoDb.
+2018.05.17 06:45:05  New message received at: 2018.05.17 06:45:05 . Sending to MongoDB.
+2018.05.17 06:45:05  Parsing new message.
+2018.05.17 06:45:05  Sending new message to mongoDb.
+2018.05.17 06:45:05  Message sent to mongoDb.
+2018.05.17 06:45:10  New message received at: 2018.05.17 06:45:10 . Sending to MongoDB.
+2018.05.17 06:45:10  Parsing new message.
+2018.05.17 06:45:10  Sending new message to mongoDb.
+2018.05.17 06:45:10  Message sent to mongoDb.
+2018.05.17 06:45:16  New message received at: 2018.05.17 06:45:16 . Sending to MongoDB.
+2018.05.17 06:45:16  Parsing new message.
+2018.05.17 06:45:16  Sending new message to mongoDb.
+2018.05.17 06:45:16  Message sent to mongoDb.
+2018.05.17 06:45:21  New message received at: 2018.05.17 06:45:21 . Sending to MongoDB.
+2018.05.17 06:45:21  Parsing new message.
+2018.05.17 06:45:21  Sending new message to mongoDb.
+2018.05.17 06:45:21  Message sent to mongoDb.
+2018.05.17 06:45:27  New message received at: 2018.05.17 06:45:27 . Sending to MongoDB.
+2018.05.17 06:45:27  Parsing new message.
+2018.05.17 06:45:27  Sending new message to mongoDb.
+2018.05.17 06:45:27  Message sent to mongoDb.
+2018.05.17 06:45:32  New message received at: 2018.05.17 06:45:32 . Sending to MongoDB.
+2018.05.17 06:45:32  Parsing new message.
+2018.05.17 06:45:32  Sending new message to mongoDb.
+2018.05.17 06:45:32  Message sent to mongoDb.
+2018.05.17 06:45:37  New message received at: 2018.05.17 06:45:37 . Sending to MongoDB.
+2018.05.17 06:45:37  Parsing new message.
+2018.05.17 06:45:37  Sending new message to mongoDb.
+2018.05.17 06:45:37  Message sent to mongoDb.
+2018.05.17 06:45:43  New message received at: 2018.05.17 06:45:43 . Sending to MongoDB.
+2018.05.17 06:45:43  Parsing new message.
+2018.05.17 06:45:43  Sending new message to mongoDb.
+2018.05.17 06:45:43  Message sent to mongoDb.
+2018.05.17 06:45:48  New message received at: 2018.05.17 06:45:48 . Sending to MongoDB.
+2018.05.17 06:45:48  Parsing new message.
+2018.05.17 06:45:48  Sending new message to mongoDb.
+2018.05.17 06:45:48  Message sent to mongoDb.
+2018.05.17 06:45:53  New message received at: 2018.05.17 06:45:53 . Sending to MongoDB.
+2018.05.17 06:45:53  Parsing new message.
+2018.05.17 06:45:53  Sending new message to mongoDb.
+2018.05.17 06:45:53  Message sent to mongoDb.
+2018.05.17 06:45:59  New message received at: 2018.05.17 06:45:59 . Sending to MongoDB.
+2018.05.17 06:45:59  Parsing new message.
+2018.05.17 06:45:59  Sending new message to mongoDb.
+2018.05.17 06:45:59  Message sent to mongoDb.
+2018.05.17 06:46:04  New message received at: 2018.05.17 06:46:04 . Sending to MongoDB.
+2018.05.17 06:46:04  Parsing new message.
+2018.05.17 06:46:04  Sending new message to mongoDb.
+2018.05.17 06:46:04  Message sent to mongoDb.
+2018.05.17 06:46:09  New message received at: 2018.05.17 06:46:09 . Sending to MongoDB.
+2018.05.17 06:46:09  Parsing new message.
+2018.05.17 06:46:09  Sending new message to mongoDb.
+2018.05.17 06:46:09  Message sent to mongoDb.
+2018.05.17 06:46:15  New message received at: 2018.05.17 06:46:15 . Sending to MongoDB.
+2018.05.17 06:46:15  Parsing new message.
+2018.05.17 06:46:15  Sending new message to mongoDb.
+2018.05.17 06:46:15  Message sent to mongoDb.
+2018.05.17 06:46:20  New message received at: 2018.05.17 06:46:20 . Sending to MongoDB.
+2018.05.17 06:46:20  Parsing new message.
+2018.05.17 06:46:20  Sending new message to mongoDb.
+2018.05.17 06:46:20  Message sent to mongoDb.
+2018.05.17 06:46:25  New message received at: 2018.05.17 06:46:25 . Sending to MongoDB.
+2018.05.17 06:46:25  Parsing new message.
+2018.05.17 06:46:25  Sending new message to mongoDb.
+2018.05.17 06:46:25  Message sent to mongoDb.
+2018.05.17 06:46:31  New message received at: 2018.05.17 06:46:31 . Sending to MongoDB.
+2018.05.17 06:46:31  Parsing new message.
+2018.05.17 06:46:31  Sending new message to mongoDb.
+2018.05.17 06:46:31  Message sent to mongoDb.
+2018.05.17 06:46:36  New message received at: 2018.05.17 06:46:36 . Sending to MongoDB.
+2018.05.17 06:46:36  Parsing new message.
+2018.05.17 06:46:36  Sending new message to mongoDb.
+2018.05.17 06:46:36  Message sent to mongoDb.
+2018.05.17 06:46:42  New message received at: 2018.05.17 06:46:42 . Sending to MongoDB.
+2018.05.17 06:46:42  Parsing new message.
+2018.05.17 06:46:42  Sending new message to mongoDb.
+2018.05.17 06:46:42  Message sent to mongoDb.
+2018.05.17 06:46:47  New message received at: 2018.05.17 06:46:47 . Sending to MongoDB.
+2018.05.17 06:46:47  Parsing new message.
+2018.05.17 06:46:47  Sending new message to mongoDb.
+2018.05.17 06:46:47  Message sent to mongoDb.
+2018.05.17 06:46:52  New message received at: 2018.05.17 06:46:52 . Sending to MongoDB.
+2018.05.17 06:46:52  Parsing new message.
+2018.05.17 06:46:52  Sending new message to mongoDb.
+2018.05.17 06:46:52  Message sent to mongoDb.
+2018.05.17 06:46:57  New message received at: 2018.05.17 06:46:57 . Sending to MongoDB.
+2018.05.17 06:46:57  Parsing new message.
+2018.05.17 06:46:57  Sending new message to mongoDb.
+2018.05.17 06:46:57  Message sent to mongoDb.
+2018.05.17 06:47:03  New message received at: 2018.05.17 06:47:03 . Sending to MongoDB.
+2018.05.17 06:47:03  Parsing new message.
+2018.05.17 06:47:03  Sending new message to mongoDb.
+2018.05.17 06:47:03  Message sent to mongoDb.
+2018.05.17 06:47:08  New message received at: 2018.05.17 06:47:08 . Sending to MongoDB.
+2018.05.17 06:47:08  Parsing new message.
+2018.05.17 06:47:08  Sending new message to mongoDb.
+2018.05.17 06:47:08  Message sent to mongoDb.
+2018.05.17 06:47:13  New message received at: 2018.05.17 06:47:13 . Sending to MongoDB.
+2018.05.17 06:47:13  Parsing new message.
+2018.05.17 06:47:13  Sending new message to mongoDb.
+2018.05.17 06:47:13  Message sent to mongoDb.
+2018.05.17 06:47:19  New message received at: 2018.05.17 06:47:19 . Sending to MongoDB.
+2018.05.17 06:47:19  Parsing new message.
+2018.05.17 06:47:19  Sending new message to mongoDb.
+2018.05.17 06:47:19  Message sent to mongoDb.
+2018.05.17 06:47:24  New message received at: 2018.05.17 06:47:24 . Sending to MongoDB.
+2018.05.17 06:47:24  Parsing new message.
+2018.05.17 06:47:24  Sending new message to mongoDb.
+2018.05.17 06:47:24  Message sent to mongoDb.
+2018.05.17 06:47:29  New message received at: 2018.05.17 06:47:29 . Sending to MongoDB.
+2018.05.17 06:47:29  Parsing new message.
+2018.05.17 06:47:29  Sending new message to mongoDb.
+2018.05.17 06:47:29  Message sent to mongoDb.
+2018.05.17 06:47:35  New message received at: 2018.05.17 06:47:35 . Sending to MongoDB.
+2018.05.17 06:47:35  Parsing new message.
+2018.05.17 06:47:35  Sending new message to mongoDb.
+2018.05.17 06:47:35  Message sent to mongoDb.
+2018.05.17 06:47:41  New message received at: 2018.05.17 06:47:41 . Sending to MongoDB.
+2018.05.17 06:47:41  Parsing new message.
+2018.05.17 06:47:41  Sending new message to mongoDb.
+2018.05.17 06:47:41  Message sent to mongoDb.
+2018.05.17 06:47:45  New message received at: 2018.05.17 06:47:45 . Sending to MongoDB.
+2018.05.17 06:47:45  Parsing new message.
+2018.05.17 06:47:45  Sending new message to mongoDb.
+2018.05.17 06:47:45  Message sent to mongoDb.
+2018.05.17 06:47:51  New message received at: 2018.05.17 06:47:51 . Sending to MongoDB.
+2018.05.17 06:47:51  Parsing new message.
+2018.05.17 06:47:51  Sending new message to mongoDb.
+2018.05.17 06:47:51  Message sent to mongoDb.
+2018.05.17 06:47:56  New message received at: 2018.05.17 06:47:56 . Sending to MongoDB.
+2018.05.17 06:47:56  Parsing new message.
+2018.05.17 06:47:56  Sending new message to mongoDb.
+2018.05.17 06:47:56  Message sent to mongoDb.
+2018.05.17 06:48:01  New message received at: 2018.05.17 06:48:01 . Sending to MongoDB.
+2018.05.17 06:48:01  Parsing new message.
+2018.05.17 06:48:01  Sending new message to mongoDb.
+2018.05.17 06:48:01  Message sent to mongoDb.
+2018.05.17 06:48:07  New message received at: 2018.05.17 06:48:07 . Sending to MongoDB.
+2018.05.17 06:48:07  Parsing new message.
+2018.05.17 06:48:07  Sending new message to mongoDb.
+2018.05.17 06:48:07  Message sent to mongoDb.
+2018.05.17 06:48:12  New message received at: 2018.05.17 06:48:12 . Sending to MongoDB.
+2018.05.17 06:48:12  Parsing new message.
+2018.05.17 06:48:12  Sending new message to mongoDb.
+2018.05.17 06:48:12  Message sent to mongoDb.
+2018.05.17 06:48:17  New message received at: 2018.05.17 06:48:17 . Sending to MongoDB.
+2018.05.17 06:48:17  Parsing new message.
+2018.05.17 06:48:17  Sending new message to mongoDb.
+2018.05.17 06:48:17  Message sent to mongoDb.
+2018.05.17 06:48:23  New message received at: 2018.05.17 06:48:23 . Sending to MongoDB.
+2018.05.17 06:48:23  Parsing new message.
+2018.05.17 06:48:23  Sending new message to mongoDb.
+2018.05.17 06:48:23  Message sent to mongoDb.
+2018.05.17 06:48:28  New message received at: 2018.05.17 06:48:28 . Sending to MongoDB.
+2018.05.17 06:48:28  Parsing new message.
+2018.05.17 06:48:28  Sending new message to mongoDb.
+2018.05.17 06:48:28  Message sent to mongoDb.
+2018.05.17 06:48:33  New message received at: 2018.05.17 06:48:33 . Sending to MongoDB.
+2018.05.17 06:48:33  Parsing new message.
+2018.05.17 06:48:33  Sending new message to mongoDb.
+2018.05.17 06:48:33  Message sent to mongoDb.
+2018.05.17 06:48:39  New message received at: 2018.05.17 06:48:39 . Sending to MongoDB.
+2018.05.17 06:48:39  Parsing new message.
+2018.05.17 06:48:39  Sending new message to mongoDb.
+2018.05.17 06:48:39  Message sent to mongoDb.
+2018.05.17 06:48:44  New message received at: 2018.05.17 06:48:44 . Sending to MongoDB.
+2018.05.17 06:48:44  Parsing new message.
+2018.05.17 06:48:44  Sending new message to mongoDb.
+2018.05.17 06:48:44  Message sent to mongoDb.
+2018.05.17 06:48:49  New message received at: 2018.05.17 06:48:49 . Sending to MongoDB.
+2018.05.17 06:48:49  Parsing new message.
+2018.05.17 06:48:49  Sending new message to mongoDb.
+2018.05.17 06:48:49  Message sent to mongoDb.
+2018.05.17 06:48:55  New message received at: 2018.05.17 06:48:55 . Sending to MongoDB.
+2018.05.17 06:48:55  Parsing new message.
+2018.05.17 06:48:55  Sending new message to mongoDb.
+2018.05.17 06:48:55  Message sent to mongoDb.
+2018.05.17 06:49:00  New message received at: 2018.05.17 06:49:00 . Sending to MongoDB.
+2018.05.17 06:49:00  Parsing new message.
+2018.05.17 06:49:00  Sending new message to mongoDb.
+2018.05.17 06:49:00  Message sent to mongoDb.
+2018.05.17 06:49:05  New message received at: 2018.05.17 06:49:05 . Sending to MongoDB.
+2018.05.17 06:49:05  Parsing new message.
+2018.05.17 06:49:05  Sending new message to mongoDb.
+2018.05.17 06:49:05  Message sent to mongoDb.
+2018.05.17 06:49:11  New message received at: 2018.05.17 06:49:11 . Sending to MongoDB.
+2018.05.17 06:49:11  Parsing new message.
+2018.05.17 06:49:11  Sending new message to mongoDb.
+2018.05.17 06:49:11  Message sent to mongoDb.
+2018.05.17 06:49:16  New message received at: 2018.05.17 06:49:16 . Sending to MongoDB.
+2018.05.17 06:49:16  Parsing new message.
+2018.05.17 06:49:16  Sending new message to mongoDb.
+2018.05.17 06:49:16  Message sent to mongoDb.
+2018.05.17 06:49:21  New message received at: 2018.05.17 06:49:21 . Sending to MongoDB.
+2018.05.17 06:49:21  Parsing new message.
+2018.05.17 06:49:21  Sending new message to mongoDb.
+2018.05.17 06:49:21  Message sent to mongoDb.
+2018.05.17 06:49:27  New message received at: 2018.05.17 06:49:27 . Sending to MongoDB.
+2018.05.17 06:49:27  Parsing new message.
+2018.05.17 06:49:27  Sending new message to mongoDb.
+2018.05.17 06:49:27  Message sent to mongoDb.
+2018.05.17 06:49:32  New message received at: 2018.05.17 06:49:32 . Sending to MongoDB.
+2018.05.17 06:49:32  Parsing new message.
+2018.05.17 06:49:32  Sending new message to mongoDb.
+2018.05.17 06:49:32  Message sent to mongoDb.
+2018.05.17 06:49:32  New message received at: 2018.05.17 06:49:32 . Sending to MongoDB.
+2018.05.17 06:49:32  Parsing new message.
+2018.05.17 06:49:32  Sending new message to mongoDb.
+2018.05.17 06:49:32  Message sent to mongoDb.
+2018.05.17 06:49:38  New message received at: 2018.05.17 06:49:38 . Sending to MongoDB.
+2018.05.17 06:49:38  Parsing new message.
+2018.05.17 06:49:38  Sending new message to mongoDb.
+2018.05.17 06:49:38  Message sent to mongoDb.
+2018.05.17 06:49:43  New message received at: 2018.05.17 06:49:43 . Sending to MongoDB.
+2018.05.17 06:49:43  Parsing new message.
+2018.05.17 06:49:43  Sending new message to mongoDb.
+2018.05.17 06:49:43  Message sent to mongoDb.
+2018.05.17 06:49:48  New message received at: 2018.05.17 06:49:48 . Sending to MongoDB.
+2018.05.17 06:49:48  Parsing new message.
+2018.05.17 06:49:48  Sending new message to mongoDb.
+2018.05.17 06:49:48  Message sent to mongoDb.
+2018.05.17 06:49:55  New message received at: 2018.05.17 06:49:55 . Sending to MongoDB.
+2018.05.17 06:49:55  Parsing new message.
+2018.05.17 06:49:55  Sending new message to mongoDb.
+2018.05.17 06:49:55  Message sent to mongoDb.
+2018.05.17 06:49:59  New message received at: 2018.05.17 06:49:59 . Sending to MongoDB.
+2018.05.17 06:49:59  Parsing new message.
+2018.05.17 06:49:59  Sending new message to mongoDb.
+2018.05.17 06:49:59  Message sent to mongoDb.
+2018.05.17 06:50:01  New message received at: 2018.05.17 06:50:01 . Sending to MongoDB.
+2018.05.17 06:50:01  Parsing new message.
+2018.05.17 06:50:01  Sending new message to mongoDb.
+2018.05.17 06:50:01  Message sent to mongoDb.
+2018.05.17 06:50:04  New message received at: 2018.05.17 06:50:04 . Sending to MongoDB.
+2018.05.17 06:50:04  Parsing new message.
+2018.05.17 06:50:04  Sending new message to mongoDb.
+2018.05.17 06:50:04  Message sent to mongoDb.
+2018.05.17 06:50:10  New message received at: 2018.05.17 06:50:10 . Sending to MongoDB.
+2018.05.17 06:50:10  Parsing new message.
+2018.05.17 06:50:10  Sending new message to mongoDb.
+2018.05.17 06:50:10  Message sent to mongoDb.
+2018.05.17 06:50:15  New message received at: 2018.05.17 06:50:15 . Sending to MongoDB.
+2018.05.17 06:50:15  Parsing new message.
+2018.05.17 06:50:15  Sending new message to mongoDb.
+2018.05.17 06:50:15  Message sent to mongoDb.
+2018.05.17 06:50:20  New message received at: 2018.05.17 06:50:20 . Sending to MongoDB.
+2018.05.17 06:50:20  Parsing new message.
+2018.05.17 06:50:20  Sending new message to mongoDb.
+2018.05.17 06:50:20  Message sent to mongoDb.
+2018.05.17 06:50:26  New message received at: 2018.05.17 06:50:26 . Sending to MongoDB.
+2018.05.17 06:50:26  Parsing new message.
+2018.05.17 06:50:26  Sending new message to mongoDb.
+2018.05.17 06:50:26  Message sent to mongoDb.
+2018.05.17 06:50:31  New message received at: 2018.05.17 06:50:31 . Sending to MongoDB.
+2018.05.17 06:50:31  Parsing new message.
+2018.05.17 06:50:31  Sending new message to mongoDb.
+2018.05.17 06:50:31  Message sent to mongoDb.
+2018.05.17 06:50:36  New message received at: 2018.05.17 06:50:36 . Sending to MongoDB.
+2018.05.17 06:50:36  Parsing new message.
+2018.05.17 06:50:36  Sending new message to mongoDb.
+2018.05.17 06:50:36  Message sent to mongoDb.
+2018.05.17 06:50:42  New message received at: 2018.05.17 06:50:42 . Sending to MongoDB.
+2018.05.17 06:50:42  Parsing new message.
+2018.05.17 06:50:42  Sending new message to mongoDb.
+2018.05.17 06:50:42  Message sent to mongoDb.
+2018.05.17 06:50:47  New message received at: 2018.05.17 06:50:47 . Sending to MongoDB.
+2018.05.17 06:50:47  Parsing new message.
+2018.05.17 06:50:47  Sending new message to mongoDb.
+2018.05.17 06:50:47  Message sent to mongoDb.
+2018.05.17 06:50:52  New message received at: 2018.05.17 06:50:52 . Sending to MongoDB.
+2018.05.17 06:50:52  Parsing new message.
+2018.05.17 06:50:52  Sending new message to mongoDb.
+2018.05.17 06:50:52  Message sent to mongoDb.
+2018.05.17 06:50:58  New message received at: 2018.05.17 06:50:58 . Sending to MongoDB.
+2018.05.17 06:50:58  Parsing new message.
+2018.05.17 06:50:58  Sending new message to mongoDb.
+2018.05.17 06:50:58  Message sent to mongoDb.
+2018.05.17 06:51:03  New message received at: 2018.05.17 06:51:03 . Sending to MongoDB.
+2018.05.17 06:51:03  Parsing new message.
+2018.05.17 06:51:03  Sending new message to mongoDb.
+2018.05.17 06:51:03  Message sent to mongoDb.
+2018.05.17 06:51:08  New message received at: 2018.05.17 06:51:08 . Sending to MongoDB.
+2018.05.17 06:51:08  Parsing new message.
+2018.05.17 06:51:08  Sending new message to mongoDb.
+2018.05.17 06:51:08  Message sent to mongoDb.
+2018.05.17 06:51:14  New message received at: 2018.05.17 06:51:14 . Sending to MongoDB.
+2018.05.17 06:51:14  Parsing new message.
+2018.05.17 06:51:14  Sending new message to mongoDb.
+2018.05.17 06:51:14  Message sent to mongoDb.
+2018.05.17 06:51:19  New message received at: 2018.05.17 06:51:19 . Sending to MongoDB.
+2018.05.17 06:51:19  Parsing new message.
+2018.05.17 06:51:19  Sending new message to mongoDb.
+2018.05.17 06:51:19  Message sent to mongoDb.
+2018.05.17 06:51:24  New message received at: 2018.05.17 06:51:24 . Sending to MongoDB.
+2018.05.17 06:51:24  Parsing new message.
+2018.05.17 06:51:24  Sending new message to mongoDb.
+2018.05.17 06:51:24  Message sent to mongoDb.
+2018.05.17 06:51:30  New message received at: 2018.05.17 06:51:30 . Sending to MongoDB.
+2018.05.17 06:51:30  Parsing new message.
+2018.05.17 06:51:30  Sending new message to mongoDb.
+2018.05.17 06:51:30  Message sent to mongoDb.
+2018.05.17 06:51:35  New message received at: 2018.05.17 06:51:35 . Sending to MongoDB.
+2018.05.17 06:51:35  Parsing new message.
+2018.05.17 06:51:35  Sending new message to mongoDb.
+2018.05.17 06:51:35  Message sent to mongoDb.
+2018.05.17 06:51:40  New message received at: 2018.05.17 06:51:40 . Sending to MongoDB.
+2018.05.17 06:51:40  Parsing new message.
+2018.05.17 06:51:40  Sending new message to mongoDb.
+2018.05.17 06:51:40  Message sent to mongoDb.
+2018.05.17 06:51:46  New message received at: 2018.05.17 06:51:46 . Sending to MongoDB.
+2018.05.17 06:51:46  Parsing new message.
+2018.05.17 06:51:46  Sending new message to mongoDb.
+2018.05.17 06:51:46  Message sent to mongoDb.
+2018.05.17 06:51:51  New message received at: 2018.05.17 06:51:51 . Sending to MongoDB.
+2018.05.17 06:51:51  Parsing new message.
+2018.05.17 06:51:51  Sending new message to mongoDb.
+2018.05.17 06:51:51  Message sent to mongoDb.
+2018.05.17 06:51:56  New message received at: 2018.05.17 06:51:56 . Sending to MongoDB.
+2018.05.17 06:51:56  Parsing new message.
+2018.05.17 06:51:56  Sending new message to mongoDb.
+2018.05.17 06:51:56  Message sent to mongoDb.
+2018.05.17 06:52:02  New message received at: 2018.05.17 06:52:02 . Sending to MongoDB.
+2018.05.17 06:52:02  Parsing new message.
+2018.05.17 06:52:02  Sending new message to mongoDb.
+2018.05.17 06:52:02  Message sent to mongoDb.
+2018.05.17 06:52:07  New message received at: 2018.05.17 06:52:07 . Sending to MongoDB.
+2018.05.17 06:52:07  Parsing new message.
+2018.05.17 06:52:07  Sending new message to mongoDb.
+2018.05.17 06:52:07  Message sent to mongoDb.
+2018.05.17 06:52:12  New message received at: 2018.05.17 06:52:12 . Sending to MongoDB.
+2018.05.17 06:52:12  Parsing new message.
+2018.05.17 06:52:12  Sending new message to mongoDb.
+2018.05.17 06:52:12  Message sent to mongoDb.
+2018.05.17 06:52:18  New message received at: 2018.05.17 06:52:18 . Sending to MongoDB.
+2018.05.17 06:52:18  Parsing new message.
+2018.05.17 06:52:18  Sending new message to mongoDb.
+2018.05.17 06:52:18  Message sent to mongoDb.
+2018.05.17 06:52:23  New message received at: 2018.05.17 06:52:23 . Sending to MongoDB.
+2018.05.17 06:52:23  Parsing new message.
+2018.05.17 06:52:23  Sending new message to mongoDb.
+2018.05.17 06:52:23  Message sent to mongoDb.
+2018.05.17 06:52:28  New message received at: 2018.05.17 06:52:28 . Sending to MongoDB.
+2018.05.17 06:52:28  Parsing new message.
+2018.05.17 06:52:28  Sending new message to mongoDb.
+2018.05.17 06:52:28  Message sent to mongoDb.
+2018.05.17 06:52:34  New message received at: 2018.05.17 06:52:34 . Sending to MongoDB.
+2018.05.17 06:52:34  Parsing new message.
+2018.05.17 06:52:34  Sending new message to mongoDb.
+2018.05.17 06:52:34  Message sent to mongoDb.
+2018.05.17 06:52:39  New message received at: 2018.05.17 06:52:39 . Sending to MongoDB.
+2018.05.17 06:52:39  Parsing new message.
+2018.05.17 06:52:39  Sending new message to mongoDb.
+2018.05.17 06:52:39  Message sent to mongoDb.
+2018.05.17 06:52:44  New message received at: 2018.05.17 06:52:44 . Sending to MongoDB.
+2018.05.17 06:52:44  Parsing new message.
+2018.05.17 06:52:44  Sending new message to mongoDb.
+2018.05.17 06:52:44  Message sent to mongoDb.
+2018.05.17 06:52:50  New message received at: 2018.05.17 06:52:50 . Sending to MongoDB.
+2018.05.17 06:52:50  Parsing new message.
+2018.05.17 06:52:50  Sending new message to mongoDb.
+2018.05.17 06:52:50  Message sent to mongoDb.
+2018.05.17 06:52:55  New message received at: 2018.05.17 06:52:55 . Sending to MongoDB.
+2018.05.17 06:52:55  Parsing new message.
+2018.05.17 06:52:55  Sending new message to mongoDb.
+2018.05.17 06:52:55  Message sent to mongoDb.
+2018.05.17 06:53:00  New message received at: 2018.05.17 06:53:00 . Sending to MongoDB.
+2018.05.17 06:53:00  Parsing new message.
+2018.05.17 06:53:00  Sending new message to mongoDb.
+2018.05.17 06:53:00  Message sent to mongoDb.
+2018.05.17 06:53:06  New message received at: 2018.05.17 06:53:06 . Sending to MongoDB.
+2018.05.17 06:53:06  Parsing new message.
+2018.05.17 06:53:06  Sending new message to mongoDb.
+2018.05.17 06:53:06  Message sent to mongoDb.
+2018.05.17 06:53:11  New message received at: 2018.05.17 06:53:11 . Sending to MongoDB.
+2018.05.17 06:53:11  Parsing new message.
+2018.05.17 06:53:11  Sending new message to mongoDb.
+2018.05.17 06:53:11  Message sent to mongoDb.
+2018.05.17 06:53:16  New message received at: 2018.05.17 06:53:16 . Sending to MongoDB.
+2018.05.17 06:53:16  Parsing new message.
+2018.05.17 06:53:16  Sending new message to mongoDb.
+2018.05.17 06:53:16  Message sent to mongoDb.
+2018.05.17 06:53:22  New message received at: 2018.05.17 06:53:22 . Sending to MongoDB.
+2018.05.17 06:53:22  Parsing new message.
+2018.05.17 06:53:22  Sending new message to mongoDb.
+2018.05.17 06:53:22  Message sent to mongoDb.
+2018.05.17 06:53:27  New message received at: 2018.05.17 06:53:27 . Sending to MongoDB.
+2018.05.17 06:53:27  Parsing new message.
+2018.05.17 06:53:27  Sending new message to mongoDb.
+2018.05.17 06:53:27  Message sent to mongoDb.
+2018.05.17 06:53:32  New message received at: 2018.05.17 06:53:32 . Sending to MongoDB.
+2018.05.17 06:53:32  Parsing new message.
+2018.05.17 06:53:32  Sending new message to mongoDb.
+2018.05.17 06:53:32  Message sent to mongoDb.
+2018.05.17 06:53:38  New message received at: 2018.05.17 06:53:38 . Sending to MongoDB.
+2018.05.17 06:53:38  Parsing new message.
+2018.05.17 06:53:38  Sending new message to mongoDb.
+2018.05.17 06:53:38  Message sent to mongoDb.
+2018.05.17 06:53:43  New message received at: 2018.05.17 06:53:43 . Sending to MongoDB.
+2018.05.17 06:53:43  Parsing new message.
+2018.05.17 06:53:43  Sending new message to mongoDb.
+2018.05.17 06:53:43  Message sent to mongoDb.
+2018.05.17 06:53:49  New message received at: 2018.05.17 06:53:49 . Sending to MongoDB.
+2018.05.17 06:53:49  Parsing new message.
+2018.05.17 06:53:49  Sending new message to mongoDb.
+2018.05.17 06:53:49  Message sent to mongoDb.
+2018.05.17 06:53:54  New message received at: 2018.05.17 06:53:54 . Sending to MongoDB.
+2018.05.17 06:53:54  Parsing new message.
+2018.05.17 06:53:54  Sending new message to mongoDb.
+2018.05.17 06:53:54  Message sent to mongoDb.
+2018.05.17 06:53:59  New message received at: 2018.05.17 06:53:59 . Sending to MongoDB.
+2018.05.17 06:53:59  Parsing new message.
+2018.05.17 06:53:59  Sending new message to mongoDb.
+2018.05.17 06:53:59  Message sent to mongoDb.
+2018.05.17 06:54:05  New message received at: 2018.05.17 06:54:05 . Sending to MongoDB.
+2018.05.17 06:54:05  Parsing new message.
+2018.05.17 06:54:05  Sending new message to mongoDb.
+2018.05.17 06:54:05  Message sent to mongoDb.
+2018.05.17 06:54:10  New message received at: 2018.05.17 06:54:10 . Sending to MongoDB.
+2018.05.17 06:54:10  Parsing new message.
+2018.05.17 06:54:10  Sending new message to mongoDb.
+2018.05.17 06:54:10  Message sent to mongoDb.
+2018.05.17 06:54:15  New message received at: 2018.05.17 06:54:15 . Sending to MongoDB.
+2018.05.17 06:54:15  Parsing new message.
+2018.05.17 06:54:15  Sending new message to mongoDb.
+2018.05.17 06:54:15  Message sent to mongoDb.
+2018.05.17 06:54:21  New message received at: 2018.05.17 06:54:21 . Sending to MongoDB.
+2018.05.17 06:54:21  Parsing new message.
+2018.05.17 06:54:21  Sending new message to mongoDb.
+2018.05.17 06:54:21  Message sent to mongoDb.
+2018.05.17 06:54:26  New message received at: 2018.05.17 06:54:26 . Sending to MongoDB.
+2018.05.17 06:54:26  Parsing new message.
+2018.05.17 06:54:26  Sending new message to mongoDb.
+2018.05.17 06:54:26  Message sent to mongoDb.
+2018.05.17 06:54:31  New message received at: 2018.05.17 06:54:31 . Sending to MongoDB.
+2018.05.17 06:54:31  Parsing new message.
+2018.05.17 06:54:31  Sending new message to mongoDb.
+2018.05.17 06:54:31  Message sent to mongoDb.
+2018.05.17 06:54:37  New message received at: 2018.05.17 06:54:37 . Sending to MongoDB.
+2018.05.17 06:54:37  Parsing new message.
+2018.05.17 06:54:37  Sending new message to mongoDb.
+2018.05.17 06:54:37  Message sent to mongoDb.
+2018.05.17 06:54:42  New message received at: 2018.05.17 06:54:42 . Sending to MongoDB.
+2018.05.17 06:54:42  Parsing new message.
+2018.05.17 06:54:42  Sending new message to mongoDb.
+2018.05.17 06:54:42  Message sent to mongoDb.
+2018.05.17 06:54:47  New message received at: 2018.05.17 06:54:47 . Sending to MongoDB.
+2018.05.17 06:54:47  Parsing new message.
+2018.05.17 06:54:47  Sending new message to mongoDb.
+2018.05.17 06:54:47  Message sent to mongoDb.
+2018.05.17 06:54:54  New message received at: 2018.05.17 06:54:54 . Sending to MongoDB.
+2018.05.17 06:54:54  Parsing new message.
+2018.05.17 06:54:54  Sending new message to mongoDb.
+2018.05.17 06:54:54  Message sent to mongoDb.
+2018.05.17 06:54:58  New message received at: 2018.05.17 06:54:58 . Sending to MongoDB.
+2018.05.17 06:54:58  Parsing new message.
+2018.05.17 06:54:58  Sending new message to mongoDb.
+2018.05.17 06:54:58  Message sent to mongoDb.
+2018.05.17 06:55:03  New message received at: 2018.05.17 06:55:03 . Sending to MongoDB.
+2018.05.17 06:55:03  Parsing new message.
+2018.05.17 06:55:03  Sending new message to mongoDb.
+2018.05.17 06:55:03  Message sent to mongoDb.
+2018.05.17 06:55:09  New message received at: 2018.05.17 06:55:09 . Sending to MongoDB.
+2018.05.17 06:55:09  Parsing new message.
+2018.05.17 06:55:09  Sending new message to mongoDb.
+2018.05.17 06:55:09  Message sent to mongoDb.
+2018.05.17 06:55:14  New message received at: 2018.05.17 06:55:14 . Sending to MongoDB.
+2018.05.17 06:55:14  Parsing new message.
+2018.05.17 06:55:14  Sending new message to mongoDb.
+2018.05.17 06:55:14  Message sent to mongoDb.
+2018.05.17 06:55:19  New message received at: 2018.05.17 06:55:19 . Sending to MongoDB.
+2018.05.17 06:55:19  Parsing new message.
+2018.05.17 06:55:19  Sending new message to mongoDb.
+2018.05.17 06:55:19  Message sent to mongoDb.
+2018.05.17 06:55:25  New message received at: 2018.05.17 06:55:25 . Sending to MongoDB.
+2018.05.17 06:55:25  Parsing new message.
+2018.05.17 06:55:25  Sending new message to mongoDb.
+2018.05.17 06:55:25  Message sent to mongoDb.
+2018.05.17 06:55:30  New message received at: 2018.05.17 06:55:30 . Sending to MongoDB.
+2018.05.17 06:55:30  Parsing new message.
+2018.05.17 06:55:30  Sending new message to mongoDb.
+2018.05.17 06:55:30  Message sent to mongoDb.
+2018.05.17 06:55:35  New message received at: 2018.05.17 06:55:35 . Sending to MongoDB.
+2018.05.17 06:55:35  Parsing new message.
+2018.05.17 06:55:35  Sending new message to mongoDb.
+2018.05.17 06:55:35  Message sent to mongoDb.
+2018.05.17 06:55:41  New message received at: 2018.05.17 06:55:41 . Sending to MongoDB.
+2018.05.17 06:55:41  Parsing new message.
+2018.05.17 06:55:41  Sending new message to mongoDb.
+2018.05.17 06:55:41  Message sent to mongoDb.
+2018.05.17 06:55:46  New message received at: 2018.05.17 06:55:46 . Sending to MongoDB.
+2018.05.17 06:55:46  Parsing new message.
+2018.05.17 06:55:46  Sending new message to mongoDb.
+2018.05.17 06:55:46  Message sent to mongoDb.
+2018.05.17 06:55:51  New message received at: 2018.05.17 06:55:51 . Sending to MongoDB.
+2018.05.17 06:55:51  Parsing new message.
+2018.05.17 06:55:51  Sending new message to mongoDb.
+2018.05.17 06:55:51  Message sent to mongoDb.
+2018.05.17 06:55:57  New message received at: 2018.05.17 06:55:57 . Sending to MongoDB.
+2018.05.17 06:55:57  Parsing new message.
+2018.05.17 06:55:57  Sending new message to mongoDb.
+2018.05.17 06:55:57  Message sent to mongoDb.
+2018.05.17 06:56:03  New message received at: 2018.05.17 06:56:03 . Sending to MongoDB.
+2018.05.17 06:56:03  Parsing new message.
+2018.05.17 06:56:03  Sending new message to mongoDb.
+2018.05.17 06:56:03  Message sent to mongoDb.
+2018.05.17 06:56:07  New message received at: 2018.05.17 06:56:07 . Sending to MongoDB.
+2018.05.17 06:56:07  Parsing new message.
+2018.05.17 06:56:07  Sending new message to mongoDb.
+2018.05.17 06:56:07  Message sent to mongoDb.
+2018.05.17 06:56:13  New message received at: 2018.05.17 06:56:13 . Sending to MongoDB.
+2018.05.17 06:56:13  Parsing new message.
+2018.05.17 06:56:13  Sending new message to mongoDb.
+2018.05.17 06:56:13  Message sent to mongoDb.
+2018.05.17 06:56:18  New message received at: 2018.05.17 06:56:18 . Sending to MongoDB.
+2018.05.17 06:56:18  Parsing new message.
+2018.05.17 06:56:18  Sending new message to mongoDb.
+2018.05.17 06:56:18  Message sent to mongoDb.
+2018.05.17 06:56:23  New message received at: 2018.05.17 06:56:23 . Sending to MongoDB.
+2018.05.17 06:56:23  Parsing new message.
+2018.05.17 06:56:23  Sending new message to mongoDb.
+2018.05.17 06:56:23  Message sent to mongoDb.
+2018.05.17 06:56:29  New message received at: 2018.05.17 06:56:29 . Sending to MongoDB.
+2018.05.17 06:56:29  Parsing new message.
+2018.05.17 06:56:29  Sending new message to mongoDb.
+2018.05.17 06:56:29  Message sent to mongoDb.
+2018.05.17 06:56:34  New message received at: 2018.05.17 06:56:34 . Sending to MongoDB.
+2018.05.17 06:56:34  Parsing new message.
+2018.05.17 06:56:34  Sending new message to mongoDb.
+2018.05.17 06:56:34  Message sent to mongoDb.
+2018.05.17 06:56:39  New message received at: 2018.05.17 06:56:39 . Sending to MongoDB.
+2018.05.17 06:56:39  Parsing new message.
+2018.05.17 06:56:39  Sending new message to mongoDb.
+2018.05.17 06:56:39  Message sent to mongoDb.
+2018.05.17 06:56:45  New message received at: 2018.05.17 06:56:45 . Sending to MongoDB.
+2018.05.17 06:56:45  Parsing new message.
+2018.05.17 06:56:45  Sending new message to mongoDb.
+2018.05.17 06:56:45  Message sent to mongoDb.
+2018.05.17 06:56:50  New message received at: 2018.05.17 06:56:50 . Sending to MongoDB.
+2018.05.17 06:56:50  Parsing new message.
+2018.05.17 06:56:50  Sending new message to mongoDb.
+2018.05.17 06:56:50  Message sent to mongoDb.
+2018.05.17 06:56:55  New message received at: 2018.05.17 06:56:55 . Sending to MongoDB.
+2018.05.17 06:56:55  Parsing new message.
+2018.05.17 06:56:55  Sending new message to mongoDb.
+2018.05.17 06:56:55  Message sent to mongoDb.
+2018.05.17 06:57:01  New message received at: 2018.05.17 06:57:01 . Sending to MongoDB.
+2018.05.17 06:57:01  Parsing new message.
+2018.05.17 06:57:01  Sending new message to mongoDb.
+2018.05.17 06:57:01  Message sent to mongoDb.
+2018.05.17 06:57:06  New message received at: 2018.05.17 06:57:06 . Sending to MongoDB.
+2018.05.17 06:57:06  Parsing new message.
+2018.05.17 06:57:06  Sending new message to mongoDb.
+2018.05.17 06:57:06  Message sent to mongoDb.
+2018.05.17 06:57:11  New message received at: 2018.05.17 06:57:11 . Sending to MongoDB.
+2018.05.17 06:57:11  Parsing new message.
+2018.05.17 06:57:11  Sending new message to mongoDb.
+2018.05.17 06:57:11  Message sent to mongoDb.
+2018.05.17 06:57:17  New message received at: 2018.05.17 06:57:17 . Sending to MongoDB.
+2018.05.17 06:57:17  Parsing new message.
+2018.05.17 06:57:17  Sending new message to mongoDb.
+2018.05.17 06:57:17  Message sent to mongoDb.
+2018.05.17 06:57:22  New message received at: 2018.05.17 06:57:22 . Sending to MongoDB.
+2018.05.17 06:57:22  Parsing new message.
+2018.05.17 06:57:22  Sending new message to mongoDb.
+2018.05.17 06:57:22  Message sent to mongoDb.
+2018.05.17 06:57:27  New message received at: 2018.05.17 06:57:27 . Sending to MongoDB.
+2018.05.17 06:57:27  Parsing new message.
+2018.05.17 06:57:27  Sending new message to mongoDb.
+2018.05.17 06:57:27  Message sent to mongoDb.
+2018.05.17 06:57:33  New message received at: 2018.05.17 06:57:33 . Sending to MongoDB.
+2018.05.17 06:57:33  Parsing new message.
+2018.05.17 06:57:33  Sending new message to mongoDb.
+2018.05.17 06:57:33  Message sent to mongoDb.
+2018.05.17 06:57:38  New message received at: 2018.05.17 06:57:38 . Sending to MongoDB.
+2018.05.17 06:57:38  Parsing new message.
+2018.05.17 06:57:38  Sending new message to mongoDb.
+2018.05.17 06:57:38  Message sent to mongoDb.
+2018.05.17 06:57:43  New message received at: 2018.05.17 06:57:43 . Sending to MongoDB.
+2018.05.17 06:57:43  Parsing new message.
+2018.05.17 06:57:43  Sending new message to mongoDb.
+2018.05.17 06:57:43  Message sent to mongoDb.
+2018.05.17 06:57:49  New message received at: 2018.05.17 06:57:49 . Sending to MongoDB.
+2018.05.17 06:57:49  Parsing new message.
+2018.05.17 06:57:49  Sending new message to mongoDb.
+2018.05.17 06:57:49  Message sent to mongoDb.
+2018.05.17 06:57:54  New message received at: 2018.05.17 06:57:54 . Sending to MongoDB.
+2018.05.17 06:57:54  Parsing new message.
+2018.05.17 06:57:54  Sending new message to mongoDb.
+2018.05.17 06:57:54  Message sent to mongoDb.
+2018.05.17 06:57:59  New message received at: 2018.05.17 06:57:59 . Sending to MongoDB.
+2018.05.17 06:57:59  Parsing new message.
+2018.05.17 06:57:59  Sending new message to mongoDb.
+2018.05.17 06:57:59  Message sent to mongoDb.
+2018.05.17 06:58:05  New message received at: 2018.05.17 06:58:05 . Sending to MongoDB.
+2018.05.17 06:58:05  Parsing new message.
+2018.05.17 06:58:05  Sending new message to mongoDb.
+2018.05.17 06:58:05  Message sent to mongoDb.
+2018.05.17 06:58:10  New message received at: 2018.05.17 06:58:10 . Sending to MongoDB.
+2018.05.17 06:58:10  Parsing new message.
+2018.05.17 06:58:10  Sending new message to mongoDb.
+2018.05.17 06:58:10  Message sent to mongoDb.
+2018.05.17 06:58:16  New message received at: 2018.05.17 06:58:16 . Sending to MongoDB.
+2018.05.17 06:58:16  Parsing new message.
+2018.05.17 06:58:16  Sending new message to mongoDb.
+2018.05.17 06:58:16  Message sent to mongoDb.
+2018.05.17 06:58:21  New message received at: 2018.05.17 06:58:21 . Sending to MongoDB.
+2018.05.17 06:58:21  Parsing new message.
+2018.05.17 06:58:21  Sending new message to mongoDb.
+2018.05.17 06:58:21  Message sent to mongoDb.
+2018.05.17 06:58:26  New message received at: 2018.05.17 06:58:26 . Sending to MongoDB.
+2018.05.17 06:58:26  Parsing new message.
+2018.05.17 06:58:26  Sending new message to mongoDb.
+2018.05.17 06:58:26  Message sent to mongoDb.
+2018.05.17 06:58:32  New message received at: 2018.05.17 06:58:32 . Sending to MongoDB.
+2018.05.17 06:58:32  Parsing new message.
+2018.05.17 06:58:32  Sending new message to mongoDb.
+2018.05.17 06:58:32  Message sent to mongoDb.
+2018.05.17 06:58:37  New message received at: 2018.05.17 06:58:37 . Sending to MongoDB.
+2018.05.17 06:58:37  Parsing new message.
+2018.05.17 06:58:37  Sending new message to mongoDb.
+2018.05.17 06:58:37  Message sent to mongoDb.
+2018.05.17 06:58:42  New message received at: 2018.05.17 06:58:42 . Sending to MongoDB.
+2018.05.17 06:58:42  Parsing new message.
+2018.05.17 06:58:42  Sending new message to mongoDb.
+2018.05.17 06:58:42  Message sent to mongoDb.
+2018.05.17 06:58:48  New message received at: 2018.05.17 06:58:48 . Sending to MongoDB.
+2018.05.17 06:58:48  Parsing new message.
+2018.05.17 06:58:48  Sending new message to mongoDb.
+2018.05.17 06:58:48  Message sent to mongoDb.
+2018.05.17 06:58:53  New message received at: 2018.05.17 06:58:53 . Sending to MongoDB.
+2018.05.17 06:58:53  Parsing new message.
+2018.05.17 06:58:53  Sending new message to mongoDb.
+2018.05.17 06:58:53  Message sent to mongoDb.
+2018.05.17 06:58:58  New message received at: 2018.05.17 06:58:58 . Sending to MongoDB.
+2018.05.17 06:58:58  Parsing new message.
+2018.05.17 06:58:58  Sending new message to mongoDb.
+2018.05.17 06:58:58  Message sent to mongoDb.
+2018.05.17 06:59:04  New message received at: 2018.05.17 06:59:04 . Sending to MongoDB.
+2018.05.17 06:59:04  Parsing new message.
+2018.05.17 06:59:04  Sending new message to mongoDb.
+2018.05.17 06:59:04  Message sent to mongoDb.
+2018.05.17 06:59:20  New message received at: 2018.05.17 06:59:20 . Sending to MongoDB.
+2018.05.17 06:59:20  Parsing new message.
+2018.05.17 06:59:20  Sending new message to mongoDb.
+2018.05.17 06:59:20  Message sent to mongoDb.
+2018.05.17 06:59:20  New message received at: 2018.05.17 06:59:20 . Sending to MongoDB.
+2018.05.17 06:59:20  Parsing new message.
+2018.05.17 06:59:20  Sending new message to mongoDb.
+2018.05.17 06:59:20  Message sent to mongoDb.
+2018.05.17 06:59:20  New message received at: 2018.05.17 06:59:20 . Sending to MongoDB.
+2018.05.17 06:59:20  Parsing new message.
+2018.05.17 06:59:20  Sending new message to mongoDb.
+2018.05.17 06:59:20  Message sent to mongoDb.
+2018.05.17 06:59:25  New message received at: 2018.05.17 06:59:25 . Sending to MongoDB.
+2018.05.17 06:59:25  Parsing new message.
+2018.05.17 06:59:25  Sending new message to mongoDb.
+2018.05.17 06:59:25  Message sent to mongoDb.
+
+
+2018.05.17 07:11:36  LogFile Ready.
+2018.05.17 07:11:36  ConfigFile Ready.
+2018.05.17 07:11:36  Starting program.
+2018.05.17 07:11:36  Program started.
+2018.05.17 07:11:37  Connected to mongoDb
+2018.05.17 07:11:37  Connected to database 'sid_2018'
+2018.05.17 07:11:37  Connected to collection 'sensor_messages'
+2018.05.17 07:11:37  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho599378712875sid18
+2018.05.17 07:11:41  Connected to broker.
+2018.05.17 07:11:41  Subscribing topic: sid_lab_2018
+2018.05.17 07:11:41  Topic subscribed.
+2018.05.17 07:11:41  Listening for new messages
+2018.05.17 07:11:41  Program finished.
+2018.05.17 07:11:46  New message received at: 2018.05.17 07:11:46 . Sending to MongoDB.
+2018.05.17 07:11:46  Parsing new message.
+2018.05.17 07:11:46  Sending new message to mongoDb.
+2018.05.17 07:11:46  Message sent to mongoDb.
+2018.05.17 07:11:51  New message received at: 2018.05.17 07:11:51 . Sending to MongoDB.
+2018.05.17 07:11:51  Parsing new message.
+2018.05.17 07:11:51  Sending new message to mongoDb.
+2018.05.17 07:11:51  Message sent to mongoDb.
+2018.05.17 07:11:56  New message received at: 2018.05.17 07:11:56 . Sending to MongoDB.
+2018.05.17 07:11:56  Parsing new message.
+2018.05.17 07:11:56  Sending new message to mongoDb.
+2018.05.17 07:11:56  Message sent to mongoDb.
+
+
+2018.05.17 07:39:16  LogFile Ready.
+2018.05.17 07:39:17  ConfigFile Ready.
+2018.05.17 07:39:17  Starting program.
+2018.05.17 07:39:17  Program started.
+2018.05.17 07:39:17  Connected to mongoDb
+2018.05.17 07:39:17  Connected to database 'sid_2018'
+2018.05.17 07:39:17  Connected to collection 'sensor_messages'
+2018.05.17 07:39:17  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho1625112352617sid18
+2018.05.17 07:39:19  Connected to broker.
+2018.05.17 07:39:19  Subscribing topic: sid_lab_2018
+2018.05.17 07:39:19  Topic subscribed.
+2018.05.17 07:39:19  Listening for new messages
+2018.05.17 07:39:19  Program finished.
+2018.05.17 07:39:19  New message received at: 2018.05.17 07:39:19 . Sending to MongoDB.
+2018.05.17 07:39:19  Parsing new message.
+2018.05.17 07:39:19  Sending new message to mongoDb.
+2018.05.17 07:39:19  Message sent to mongoDb.
+2018.05.17 07:39:20  New message received at: 2018.05.17 07:39:20 . Sending to MongoDB.
+2018.05.17 07:39:20  Parsing new message.
+2018.05.17 07:39:20  Sending new message to mongoDb.
+2018.05.17 07:39:20  Message sent to mongoDb.
+2018.05.17 07:39:25  New message received at: 2018.05.17 07:39:25 . Sending to MongoDB.
+2018.05.17 07:39:25  Parsing new message.
+2018.05.17 07:39:25  Sending new message to mongoDb.
+2018.05.17 07:39:25  Message sent to mongoDb.
+2018.05.17 07:39:30  New message received at: 2018.05.17 07:39:30 . Sending to MongoDB.
+2018.05.17 07:39:30  Parsing new message.
+2018.05.17 07:39:30  Sending new message to mongoDb.
+2018.05.17 07:39:30  Message sent to mongoDb.
+2018.05.17 07:39:36  New message received at: 2018.05.17 07:39:36 . Sending to MongoDB.
+2018.05.17 07:39:36  Parsing new message.
+2018.05.17 07:39:36  Sending new message to mongoDb.
+2018.05.17 07:39:36  Message sent to mongoDb.
+2018.05.17 07:39:41  New message received at: 2018.05.17 07:39:41 . Sending to MongoDB.
+2018.05.17 07:39:41  Parsing new message.
+2018.05.17 07:39:41  Sending new message to mongoDb.
+2018.05.17 07:39:41  Message sent to mongoDb.
+2018.05.17 07:39:46  New message received at: 2018.05.17 07:39:46 . Sending to MongoDB.
+2018.05.17 07:39:46  Parsing new message.
+2018.05.17 07:39:46  Sending new message to mongoDb.
+2018.05.17 07:39:46  Message sent to mongoDb.
+2018.05.17 07:39:52  New message received at: 2018.05.17 07:39:52 . Sending to MongoDB.
+2018.05.17 07:39:52  Parsing new message.
+2018.05.17 07:39:52  Sending new message to mongoDb.
+2018.05.17 07:39:52  Message sent to mongoDb.
+2018.05.17 07:39:57  New message received at: 2018.05.17 07:39:57 . Sending to MongoDB.
+2018.05.17 07:39:57  Parsing new message.
+2018.05.17 07:39:57  Sending new message to mongoDb.
+2018.05.17 07:39:57  Message sent to mongoDb.
+2018.05.17 07:40:02  New message received at: 2018.05.17 07:40:02 . Sending to MongoDB.
+2018.05.17 07:40:02  Parsing new message.
+2018.05.17 07:40:02  Sending new message to mongoDb.
+2018.05.17 07:40:02  Message sent to mongoDb.
+
+
+2018.05.17 07:52:35  LogFile Ready.
+2018.05.17 07:52:35  ConfigFile Ready.
+2018.05.17 07:52:35  Starting program.
+2018.05.17 07:52:35  Program started.
+2018.05.17 07:52:36  Connected to mongoDb
+2018.05.17 07:52:36  Connected to database 'sid_2018'
+2018.05.17 07:52:36  Connected to collection 'sensor_messages'
+2018.05.17 07:52:36  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho2423899642824sid18
+2018.05.17 07:52:38  Connected to broker.
+2018.05.17 07:52:38  Subscribing topic: sid_lab_2018
+2018.05.17 07:52:38  Topic subscribed.
+2018.05.17 07:52:38  Listening for new messages
+2018.05.17 07:52:38  Program finished.
+2018.05.17 07:52:41  New message received at: 2018.05.17 07:52:41 . Sending to MongoDB.
+2018.05.17 07:52:41  Parsing new message.
+2018.05.17 07:52:41  Sending new message to mongoDb.
+2018.05.17 07:52:41  Message sent to mongoDb.
+2018.05.17 07:52:47  New message received at: 2018.05.17 07:52:47 . Sending to MongoDB.
+2018.05.17 07:52:47  Parsing new message.
+2018.05.17 07:52:47  Sending new message to mongoDb.
+2018.05.17 07:52:47  Message sent to mongoDb.
+2018.05.17 07:52:52  New message received at: 2018.05.17 07:52:52 . Sending to MongoDB.
+2018.05.17 07:52:52  Parsing new message.
+2018.05.17 07:52:52  Sending new message to mongoDb.
+2018.05.17 07:52:52  Message sent to mongoDb.
+2018.05.17 07:52:57  New message received at: 2018.05.17 07:52:57 . Sending to MongoDB.
+2018.05.17 07:52:57  Parsing new message.
+2018.05.17 07:52:57  Sending new message to mongoDb.
+2018.05.17 07:52:57  Message sent to mongoDb.
+2018.05.17 07:53:03  New message received at: 2018.05.17 07:53:03 . Sending to MongoDB.
+2018.05.17 07:53:03  Parsing new message.
+2018.05.17 07:53:03  Sending new message to mongoDb.
+2018.05.17 07:53:03  Message sent to mongoDb.
+2018.05.17 07:53:08  New message received at: 2018.05.17 07:53:08 . Sending to MongoDB.
+2018.05.17 07:53:08  Parsing new message.
+2018.05.17 07:53:08  Sending new message to mongoDb.
+2018.05.17 07:53:08  Message sent to mongoDb.
+2018.05.17 07:53:13  New message received at: 2018.05.17 07:53:13 . Sending to MongoDB.
+2018.05.17 07:53:13  Parsing new message.
+2018.05.17 07:53:13  Sending new message to mongoDb.
+2018.05.17 07:53:13  Message sent to mongoDb.
+2018.05.17 07:53:19  New message received at: 2018.05.17 07:53:19 . Sending to MongoDB.
+2018.05.17 07:53:19  Parsing new message.
+2018.05.17 07:53:19  Sending new message to mongoDb.
+2018.05.17 07:53:19  Message sent to mongoDb.
+2018.05.17 07:53:24  New message received at: 2018.05.17 07:53:24 . Sending to MongoDB.
+2018.05.17 07:53:24  Parsing new message.
+2018.05.17 07:53:24  Sending new message to mongoDb.
+2018.05.17 07:53:24  Message sent to mongoDb.
+2018.05.17 07:53:29  New message received at: 2018.05.17 07:53:29 . Sending to MongoDB.
+2018.05.17 07:53:29  Parsing new message.
+2018.05.17 07:53:29  Sending new message to mongoDb.
+2018.05.17 07:53:29  Message sent to mongoDb.
+2018.05.17 07:53:35  New message received at: 2018.05.17 07:53:35 . Sending to MongoDB.
+2018.05.17 07:53:35  Parsing new message.
+2018.05.17 07:53:35  Sending new message to mongoDb.
+2018.05.17 07:53:35  Message sent to mongoDb.
+
+
+2018.05.17 11:25:58  LogFile Ready.
+2018.05.17 11:25:58  ConfigFile Ready.
+2018.05.17 11:25:58  Starting program.
+2018.05.17 11:25:58  Program started.
+2018.05.17 11:25:59  Connected to mongoDb
+2018.05.17 11:25:59  Connected to database 'sid_2018'
+2018.05.17 11:25:59  Connected to collection 'sensor_messages'
+2018.05.17 11:25:59  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho1539048219019sid18
+2018.05.17 11:26:01  Connected to broker.
+2018.05.17 11:26:01  Subscribing topic: sid_lab_2018
+2018.05.17 11:26:01  Topic subscribed.
+2018.05.17 11:26:01  Listening for new messages
+2018.05.17 11:26:01  Program finished.
+
+
+2018.05.17 11:26:30  LogFile Ready.
+2018.05.17 11:26:30  ConfigFile Ready.
+2018.05.17 11:26:30  Starting program.
+2018.05.17 11:26:30  Program started.
+2018.05.17 11:26:31  Connected to mongoDb
+2018.05.17 11:26:31  Connected to database 'sid_2018'
+2018.05.17 11:26:31  Connected to collection 'sensor_messages'
+2018.05.17 11:26:31  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho1571010965919sid18
+2018.05.17 11:26:32  Connected to broker.
+2018.05.17 11:26:32  Subscribing topic: sid_lab_2018

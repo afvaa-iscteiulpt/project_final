@@ -54,6 +54,8 @@ public class MongoDB {
 			time = (String) json.get("time");
 			date = (String) json.get("date");
 
+			checkEmptys(date, time, temperature, humidity);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -65,5 +67,10 @@ public class MongoDB {
 		collection.insertOne(doc);
 		logFile.log("Message sent to mongoDb.", TypeLog.NORMAL);
 
+	}
+
+	private void checkEmptys(String date, String time, String temperature, String humidity) {
+		//TODO - check if date is empty, if yes insert date
+		//if all empty dont insert
 	}
 }

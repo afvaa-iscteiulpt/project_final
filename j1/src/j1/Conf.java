@@ -16,6 +16,8 @@ public class Conf {
 	String sybasePort;
 	String sybaseUser;
 	String sybasePass;
+	String sybaseDatabaseName;
+	String sybaseServerName;
 	
 	String mongoIp;
 	String mongoPort;
@@ -33,6 +35,8 @@ public class Conf {
 		sybasePort = (String) sybase.get("port");
 		sybaseUser = (String) sybase.get("user");
 		sybasePass = (String) sybase.get("password");
+		sybaseDatabaseName = (String) sybase.get("databasename");
+		sybaseServerName = (String) sybase.get("servername");
 		
 		JSONObject mongo = (JSONObject) jsonObject.get("mongodb");
 		mongoIp = (String) mongo.get("ip_server");
@@ -81,5 +85,13 @@ public class Conf {
 
 	public String getPeriodicity() {
 		return periodicity;
+	}
+
+	public String getSybaseServerName() {
+		return sybaseServerName;
+	}
+
+	public String getSybaseDatabaseName() {
+		return sybaseDatabaseName;
 	}
 }

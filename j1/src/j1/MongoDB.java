@@ -2,7 +2,10 @@ package j1;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.Iterator;
+import java.util.List;
 
 import org.bson.Document;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
@@ -16,19 +19,24 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 
 public class MongoDB {
 
 	private MongoCollection<Document> collection;
 	private Log logFile;
-
+	MongoCursor<Document> cursor;
+	private String dataReadyforSybase = "";
+	
+	
 	public MongoDB(Conf confFile, Log logFile) throws IOException {
 
 		this.logFile = logFile;
 
 		// set mongo
-		MongoClientURI connectionString = new MongoClientURI("mongodb://" + confFile.getMongoIp() + ":" + confFile.getMongoPort());
+		MongoClientURI connectionString = new MongoClientURI(
+				"mongodb://" + confFile.getMongoIp() + ":" + confFile.getMongoPort());
 		MongoClient mongoClient = new MongoClient(connectionString);
 		logFile.log("Connected to mongoDb", TypeLog.NORMAL);
 
@@ -40,9 +48,9 @@ public class MongoDB {
 
 	}
 
-	//send new message to mongo
+	// send new message to mongo
 	public void sendNewMessage(MqttMessage message) throws FileNotFoundException, IOException, ParseException {
-		
+
 		String date = "";
 		String time = "";
 		String temperature = "";
@@ -68,15 +76,51 @@ public class MongoDB {
 		logFile.log("Sending new message to mongoDb.", TypeLog.NORMAL);
 		collection.insertOne(doc);
 		logFile.log("Message sent to mongoDb.", TypeLog.NORMAL);
-
 	}
-	
-	private void getDataFromMongoDb() {
-		FindIterable<Document> cursor = collection.find();
-		while (((Iterator<DBObject>) cursor).hasNext()) {
-		   DBObject obj = ((Iterator<DBObject>) cursor).next();
-		   //do your thing
-		   System.out.println(obj.toString());
+
+	public void getDataFromMongoDb() {
+
+		// TODO - adicionar query para retirar apenas os de data inferior no find()
+		
+		cursor = collection.find().iterator();
+	}
+
+	@SuppressWarnings("finally")
+	public String prepareDataToSybase() throws ParseException {
+		try {
+			
+			dataReadyforSybase = "";
+			
+			while (cursor.hasNext()) {
+
+				String next = cursor.next().toJson();
+
+				JSONParser parser = new JSONParser();
+				JSONObject json = (JSONObject) parser.parse(next);
+
+				String date = "";
+				String time = "";
+				String temperature = "";
+				String humidity = "";
+
+				humidity = (String) json.get("humidity");
+				temperature = (String) json.get("temperature");
+				time = (String) json.get("time");
+				date = (String) json.get("date");
+
+				//timestamp simulado para insercção no sybase, fazer o mesmo com a data e hora do mongodb
+				String input = "2007-11-11 12:13:14" ;
+				java.sql.Timestamp ts = java.sql.Timestamp.valueOf( input ) ;
+				
+				dataReadyforSybase += "('" + ts + "', '" + temperature + "', '" + humidity + "'),";
+								
+			}
+		} finally {
+			cursor.close();
+			
+			dataReadyforSybase = dataReadyforSybase.substring(0, dataReadyforSybase.length() - 1);
+			return dataReadyforSybase;
 		}
+
 	}
 }
