@@ -1241,3 +1241,51 @@
 2018.05.17 11:26:31  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho1571010965919sid18
 2018.05.17 11:26:32  Connected to broker.
 2018.05.17 11:26:32  Subscribing topic: sid_lab_2018
+
+
+2018.06.01 12:30:11  LogFile Ready.
+2018.06.01 12:30:11  ConfigFile Ready.
+2018.06.01 12:30:11  Starting program.
+2018.06.01 12:30:11  Program started.
+2018.06.01 12:30:13  Connected to mongoDb
+2018.06.01 12:30:13  Connected to database 'sid_2018'
+2018.06.01 12:30:13  Connected to collection 'sensor_messages'
+2018.06.01 12:30:13  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho80907202235087sid18
+2018.06.01 12:30:14  ERROR Connecting. Reason: 0
+2018.06.01 12:30:14  Program finished.
+
+
+2018.06.01 12:32:07  LogFile Ready.
+2018.06.01 12:32:07  ConfigFile Ready.
+2018.06.01 12:32:07  Starting program.
+2018.06.01 12:32:07  Program started.
+2018.06.01 12:32:08  Connected to mongoDb
+2018.06.01 12:32:08  Connected to database 'sid_2018'
+2018.06.01 12:32:08  Connected to collection 'sensor_messages'
+2018.06.01 12:32:08  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho81023255467577sid18
+2018.06.01 12:32:10  ERROR Connecting. Reason: 0
+2018.06.01 12:32:10  Program finished.
+
+
+2018.06.01 12:32:31  LogFile Ready.
+2018.06.01 12:32:31  ConfigFile Ready.
+2018.06.01 12:32:31  Starting program.
+2018.06.01 12:32:31  Program started.
+2018.06.01 12:32:32  Connected to mongoDb
+2018.06.01 12:32:32  Connected to database 'sid_2018'
+2018.06.01 12:32:32  Connected to collection 'sensor_messages'
+2018.06.01 12:32:32  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho81046766661298sid18
+2018.06.01 12:32:35  ERROR Connecting. Reason: 0
+2018.06.01 12:32:35  Program finished.
+
+
+2018.06.01 12:36:33  LogFile Ready.
+2018.06.01 12:36:33  ConfigFile Ready.
+2018.06.01 12:36:33  Starting program.
+2018.06.01 12:36:33  Program started.
+2018.06.01 12:36:35  Connected to mongoDb
+2018.06.01 12:36:35  Connected to database 'sid_2018'
+2018.06.01 12:36:35  Connected to collection 'sensor_messages'
+2018.06.01 12:36:35  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho81289029111438sid18
+2018.06.01 12:36:36  ERROR Connecting. Reason: 0
+2018.06.01 12:36:36  Program finished.

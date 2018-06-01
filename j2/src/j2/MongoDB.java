@@ -2,6 +2,9 @@ package j2;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.bson.Document;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
@@ -37,12 +40,13 @@ public class MongoDB {
 	}
 
 	//send new message to mongo
-	public void sendNewMessage(MqttMessage message) throws FileNotFoundException, IOException, ParseException {
+public void sendNewMessage(MqttMessage message) throws FileNotFoundException, IOException, ParseException {
 		
 		String date = "";
 		String time = "";
 		String temperature = "";
 		String humidity = "";
+		String timestamp = "";
 
 		logFile.log("Parsing new message.", TypeLog.NORMAL);
 		try {
@@ -53,6 +57,12 @@ public class MongoDB {
 			temperature = (String) json.get("temperature");
 			time = (String) json.get("time");
 			date = (String) json.get("date");
+			
+			String dateAndTime = date + " " + time;
+			DateFormat dffrom = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+			DateFormat dfto = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");  
+			Date dateTimeStampFormat = dffrom.parse(dateAndTime);
+			timestamp = dfto.format(dateTimeStampFormat);
 
 			checkEmptys(date, time, temperature, humidity);
 			
@@ -60,7 +70,7 @@ public class MongoDB {
 			e.printStackTrace();
 		}
 
-		Document doc = new Document("date", date).append("time", time).append("temperature", temperature)
+		Document doc = new Document("date", timestamp).append("temperature", temperature)
 				.append("humidity", humidity);
 
 		logFile.log("Sending new message to mongoDb.", TypeLog.NORMAL);
