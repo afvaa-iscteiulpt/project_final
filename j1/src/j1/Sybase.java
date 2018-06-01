@@ -49,4 +49,12 @@ public class Sybase {
 
 		stmt.close();
 	}
+	
+	public String lastInsert() {
+		String lastInsert="";
+		
+		
+		return lastInsert;
+	}
+
 }

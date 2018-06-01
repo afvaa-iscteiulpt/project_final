@@ -83,6 +83,7 @@ public class MongoDB {
 		// TODO - adicionar query para retirar apenas os de data inferior no find()
 		
 		cursor = collection.find().iterator();
+		
 	}
 
 	@SuppressWarnings("finally")
@@ -90,6 +91,10 @@ public class MongoDB {
 		try {
 			
 			dataReadyforSybase = "";
+			String date = "";
+			String temperature = "";
+			String humidity = "";
+			MongoCursor<Document> cursorTemp = cursor;
 			
 			while (cursor.hasNext()) {
 
@@ -97,24 +102,21 @@ public class MongoDB {
 
 				JSONParser parser = new JSONParser();
 				JSONObject json = (JSONObject) parser.parse(next);
-
-				String date = "";
-				String time = "";
-				String temperature = "";
-				String humidity = "";
-
+				
 				humidity = (String) json.get("humidity");
 				temperature = (String) json.get("temperature");
-				time = (String) json.get("time");
 				date = (String) json.get("date");
 
 				//timestamp simulado para insercção no sybase, fazer o mesmo com a data e hora do mongodb
-				String input = "2007-11-11 12:13:14" ;
-				java.sql.Timestamp ts = java.sql.Timestamp.valueOf( input ) ;
+				java.sql.Timestamp ts = java.sql.Timestamp.valueOf( date ) ;
 				
 				dataReadyforSybase += "('" + ts + "', '" + temperature + "', '" + humidity + "'),";
-								
 			}
+			
+			while (cursorTemp.hasNext()) {
+				collection.deleteOne(cursorTemp.next());
+			}
+			
 		} finally {
 			cursor.close();
 			
