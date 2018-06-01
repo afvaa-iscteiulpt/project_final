@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.TimeZone;
 
 import org.bson.Document;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
@@ -64,7 +65,8 @@ public void sendNewMessage(MqttMessage message) throws FileNotFoundException, IO
 			Date dateTimeStampFormat = dffrom.parse(dateAndTime);
 			timestamp = dfto.format(dateTimeStampFormat);
 
-			checkEmptys(date, time, temperature, humidity);
+			date = dateCheck(date);
+			time = timeCheck(time);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -79,8 +81,37 @@ public void sendNewMessage(MqttMessage message) throws FileNotFoundException, IO
 
 	}
 
-	private void checkEmptys(String date, String time, String temperature, String humidity) {
-		//TODO - check if date is empty, if yes insert date
-		//if all empty dont insert
+	private String dateCheck(String date) {
+		if(date == null || date.isEmpty() || invalidDate(date))	{
+			TimeZone tz = TimeZone.getTimeZone("Europe/Lisbon");
+			Date now = new Date();
+			DateFormat df = new SimpleDateFormat ("dd.MM.yyyy");
+			df.setTimeZone(tz);
+			date = df.format(now);
+			System.out.println("Date is invalid, adding today's date: " + date);
+		}
+		return date;
+	}
+
+	private String timeCheck(String time)	{
+		if(time == null || time.isEmpty() || invalidTime(time))	{
+			TimeZone tz = TimeZone.getTimeZone("Europe/Lisbon");
+			Date now = new Date();
+			DateFormat df = new SimpleDateFormat ("hh:mm:ss");
+			df.setTimeZone(tz);
+			time = df.format(now);
+			System.out.println("Time is invalid, adding current time: " + time);
+		}
+		return time;
+	}
+	
+	private boolean invalidDate(String date) {
+		// TODO
+		return false;
+	}
+
+	private boolean invalidTime(String time) {
+		// TODO
+		return false;
 	}
 }
