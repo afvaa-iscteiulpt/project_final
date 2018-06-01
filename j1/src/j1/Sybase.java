@@ -35,8 +35,8 @@ public class Sybase {
 
 	public void insertToSybase(String sqlString) throws SQLException {
 		
-		//TODO - check resultado da execução da query 
-		
+		try
+	    {
 		String sqlQuery = "INSERT INTO HumidadeTemperatura"
 				+ " (dataHoraMedicao, valorMedicaoTemperatura, valorMedicaoHumidade)" + " VALUES " + sqlString;
 
@@ -46,15 +46,15 @@ public class Sybase {
 		// statement. May throw a SQLException.
 		Statement stmt = con.createStatement();
 		stmt.executeQuery(sqlQuery);
-
 		stmt.close();
+		}
+        catch (SQLException sqe)
+        {
+            System.out.println("Execeção de SQL inesperada: " +
+                                sqe.toString() + ", sqlstate = " +
+                                sqe.getSQLState());
+            System.exit(1);
+        }
 	}
 	
-	public String lastInsert() {
-		String lastInsert="";
-		
-		
-		return lastInsert;
-	}
-
 }
