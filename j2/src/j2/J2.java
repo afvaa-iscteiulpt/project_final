@@ -46,9 +46,9 @@ public class J2 {
 				@Override
 				public void messageArrived(String arg0, MqttMessage message) throws Exception {
 
-					logFile.log("New message received at: " + logFile.getTimeStamp() + ". Sending to MongoDB.",
+					logFile.log("New message received at: " + logFile.getTimeStamp() + ".Sending to MongoDB.",
 							TypeLog.NORMAL);
-					System.out.println("New message received at: " + logFile.getTimeStamp() + ". Sending to MongoDB.");
+					System.out.println("New message received at: " + logFile.getTimeStamp() + ".Sending to MongoDB.");
 					mongo.sendNewMessage(message);
 
 				}

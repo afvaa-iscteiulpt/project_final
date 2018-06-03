@@ -48,7 +48,11 @@ public void sendNewMessage(MqttMessage message) throws FileNotFoundException, IO
 		String temperature = "";
 		String humidity = "";
 		String timestamp = "";
-
+		String checkDate = "";
+		String checkTime = "";
+		String checkTemperature = "";
+		String checkHumidity = "";
+		
 		logFile.log("Parsing new message.", TypeLog.NORMAL);
 		try {
 			JSONParser parser = new JSONParser();
@@ -59,21 +63,19 @@ public void sendNewMessage(MqttMessage message) throws FileNotFoundException, IO
 			time = (String) json.get("time");
 			date = (String) json.get("date");
 			
-			String dateAndTime = date + " " + time;
-			DateFormat dffrom = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-			DateFormat dfto = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");  
-			Date dateTimeStampFormat = dffrom.parse(dateAndTime);
-			timestamp = dfto.format(dateTimeStampFormat);
-
-			date = dateCheck(date);
-			time = timeCheck(time);
+			checkDate = dateCheck(date);
+			checkTime = timeCheck(time);
+			checkHumidity = humidityCheck(humidity);
+			checkTemperature = temperatureCheck(temperature);
+			
+			timestamp = checkDate + " " + checkTime;
 			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
-		Document doc = new Document("date", timestamp).append("temperature", temperature)
-				.append("humidity", humidity);
+		Document doc = new Document("date", timestamp).append("temperature", checkTemperature)
+				.append("humidity", checkHumidity);
 
 		logFile.log("Sending new message to mongoDb.", TypeLog.NORMAL);
 		collection.insertOne(doc);
@@ -81,11 +83,30 @@ public void sendNewMessage(MqttMessage message) throws FileNotFoundException, IO
 
 	}
 
+	private String temperatureCheck(String temperature) {
+	
+		if(temperature == null || temperature.isEmpty() || temperature.equals("null")) {
+			return "null";
+		}
+		
+		return temperature;
+	}
+
+	private String humidityCheck(String humidity) {
+		
+		if(humidity == null || humidity.isEmpty() || humidity.equals("null")) {
+			return "null";
+		}
+		
+		return humidity;
+		
+	}
+
 	private String dateCheck(String date) {
-		if(date == null || date.isEmpty() || invalidDate(date))	{
+		if(date == null || date.isEmpty() || date.equals("null"))	{
 			TimeZone tz = TimeZone.getTimeZone("Europe/Lisbon");
 			Date now = new Date();
-			DateFormat df = new SimpleDateFormat ("dd.MM.yyyy");
+			DateFormat df = new SimpleDateFormat ("dd/MM/yyyy");
 			df.setTimeZone(tz);
 			date = df.format(now);
 			System.out.println("Date is invalid, adding today's date: " + date);
@@ -94,24 +115,14 @@ public void sendNewMessage(MqttMessage message) throws FileNotFoundException, IO
 	}
 
 	private String timeCheck(String time)	{
-		if(time == null || time.isEmpty() || invalidTime(time))	{
+		if(time == null || time.isEmpty() || time.equals("null"))	{
 			TimeZone tz = TimeZone.getTimeZone("Europe/Lisbon");
 			Date now = new Date();
-			DateFormat df = new SimpleDateFormat ("hh:mm:ss");
+			DateFormat df = new SimpleDateFormat ("HH:mm:ss");
 			df.setTimeZone(tz);
 			time = df.format(now);
 			System.out.println("Time is invalid, adding current time: " + time);
 		}
 		return time;
-	}
-	
-	private boolean invalidDate(String date) {
-		// TODO
-		return false;
-	}
-
-	private boolean invalidTime(String time) {
-		// TODO
-		return false;
 	}
 }

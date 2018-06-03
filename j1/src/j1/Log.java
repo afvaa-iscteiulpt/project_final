@@ -26,7 +26,7 @@ public class Log {
 			
 		TimeZone tz = TimeZone.getTimeZone("Europe/Lisbon");
 		Date now = new Date();
-		DateFormat df = new SimpleDateFormat ("yyyy.MM.dd hh:mm:ss ");
+		DateFormat df = new SimpleDateFormat ("dd/MM/aaaa hh:mm:ss ");
 		df.setTimeZone(tz);
 		String currentTime = df.format(now);
 

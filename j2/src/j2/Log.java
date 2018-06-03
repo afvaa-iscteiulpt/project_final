@@ -33,7 +33,7 @@ public class Log {
 	public String getTimeStamp() {
 		TimeZone tz = TimeZone.getTimeZone("Europe/Lisbon");
 		Date now = new Date();
-		DateFormat df = new SimpleDateFormat ("yyyy.MM.dd hh:mm:ss ");
+		DateFormat df = new SimpleDateFormat ("dd/MM/yyy HH:mm:ss ");
 		df.setTimeZone(tz);
 		String currentTime = df.format(now);
 		

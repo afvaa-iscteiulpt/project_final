@@ -2,8 +2,12 @@ package j1;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Iterator;
 import java.util.List;
 
@@ -13,6 +17,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import com.mongodb.BasicDBObject;
 import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
@@ -79,11 +84,8 @@ public class MongoDB {
 	}
 
 	public void getDataFromMongoDb() {
-
-		// TODO - adicionar query para retirar apenas os de data inferior no find()
-		
 		cursor = collection.find().iterator();
-		
+		System.out.println( collection.count() + " documents to migrate/delete.");
 	}
 
 	@SuppressWarnings("finally")
@@ -94,7 +96,6 @@ public class MongoDB {
 			String date = "";
 			String temperature = "";
 			String humidity = "";
-			MongoCursor<Document> cursorTemp = cursor;
 			
 			while (cursor.hasNext()) {
 
@@ -107,22 +108,58 @@ public class MongoDB {
 				temperature = (String) json.get("temperature");
 				date = (String) json.get("date");
 
-				//timestamp simulado para insercção no sybase, fazer o mesmo com a data e hora do mongodb
-				java.sql.Timestamp ts = java.sql.Timestamp.valueOf( date ) ;
+				String timstamp = dateToTimeStamp(date);
 				
-				dataReadyforSybase += "('" + ts + "', '" + temperature + "', '" + humidity + "'),";
+				dataReadyforSybase += "('" + timstamp + "', '" + temperature + "', '" + humidity + "'),";
 			}
-			
-			while (cursorTemp.hasNext()) {
-				collection.deleteOne(cursorTemp.next());
-			}
-			
+						
 		} finally {
-			cursor.close();
 			
-			dataReadyforSybase = dataReadyforSybase.substring(0, dataReadyforSybase.length() - 1);
+			if(!dataReadyforSybase.equals("")) 
+				dataReadyforSybase = dataReadyforSybase.substring(0, dataReadyforSybase.length() - 1);
+			
 			return dataReadyforSybase;
+			
 		}
 
+	}
+	
+	private String dateToTimeStamp(String date) throws java.text.ParseException {
+		try {
+			
+			String OLD_FORMAT = "dd/MM/yyyy HH:mm:ss";
+			String NEW_FORMAT = "yyyy-MM-dd HH:mm:ss";
+
+			String oldDateString = date;
+			String newDateString;
+
+			SimpleDateFormat sdf = new SimpleDateFormat(OLD_FORMAT);
+			
+			java.util.Date utilStartDate = sdf.parse(oldDateString);
+			java.sql.Date sqlStartDate = new java.sql.Date(utilStartDate.getTime());
+			
+			sdf.applyPattern(NEW_FORMAT);
+			newDateString = sdf.format(sqlStartDate);
+			
+			Timestamp ts = new Timestamp(((java.util.Date)sdf.parse(newDateString)).getTime());
+			
+			return ts.toString();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return "";
+		
+	}
+
+	public void deleteAllInCollection() {
+		
+		getDataFromMongoDb();
+		
+		while (cursor.hasNext()) {
+			collection.deleteOne(cursor.next());
+		}
+		
+		cursor.close();
+		
 	}
 }

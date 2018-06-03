@@ -13,9 +13,12 @@ import sybase.jdbc4.sqlanywhere.*;
 public class Sybase {
 
 	private Connection con;
+	private Log logFile;
 	
 	public Sybase(Conf confFile, Log logFile) throws IOException {
 
+		this.logFile = logFile;
+		
 		String ip = confFile.getSybaseIp();
 		String user = confFile.getSybaseUser();
 		String pass = confFile.getSybasePass();
@@ -33,7 +36,7 @@ public class Sybase {
 		}
 	}
 
-	public void insertToSybase(String sqlString) throws SQLException {
+	public void insertToSybase(String sqlString) throws SQLException, IOException {
 		
 		try
 	    {
@@ -50,7 +53,10 @@ public class Sybase {
 		}
         catch (SQLException sqe)
         {
-            System.out.println("Execeção de SQL inesperada: " +
+        	logFile.log("Execeção de SQL inesperada: " +
+                    sqe.toString() + ", sqlstate = " +
+                    sqe.getSQLState(), TypeLog.ERROR);
+        	System.out.println("Execeção de SQL inesperada: " +
                                 sqe.toString() + ", sqlstate = " +
                                 sqe.getSQLState());
             System.exit(1);

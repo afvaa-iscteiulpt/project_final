@@ -1,0 +1,62 @@
+
+
+02/06/2018 21:15:25  LogFile Ready.
+02/06/2018 21:15:25  ERROR ConfigFile with problems.
+02/06/2018 21:15:25  Starting program.
+02/06/2018 21:15:25  Program started.
+
+
+02/06/2018 21:15:59  LogFile Ready.
+02/06/2018 21:15:59  ConfigFile Ready.
+02/06/2018 21:15:59  Starting program.
+02/06/2018 21:15:59  Program started.
+02/06/2018 21:15:59  Connected to mongoDb
+02/06/2018 21:15:59  Connected to database 'sid_2018'
+02/06/2018 21:15:59  Connected to collection 'sensor_messages'
+02/06/2018 21:15:59  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho20866392539911sid18
+02/06/2018 21:16:01  Connected to broker.
+02/06/2018 21:16:01  Subscribing topic: sid23_lab_2018
+02/06/2018 21:16:01  Topic subscribed.
+02/06/2018 21:16:01  Listening for new messages
+02/06/2018 21:16:01  New message received at: 02/06/2018 21:16:01 .Sending to MongoDB.
+02/06/2018 21:16:01  Program finished.
+02/06/2018 21:16:01  Parsing new message.
+02/06/2018 21:16:01  Sending new message to mongoDb.
+02/06/2018 21:16:01  Message sent to mongoDb.
+02/06/2018 21:29:22  New message received at: 02/06/2018 21:29:22 .Sending to MongoDB.
+02/06/2018 21:29:22  Parsing new message.
+02/06/2018 21:29:22  Sending new message to mongoDb.
+02/06/2018 21:29:22  Message sent to mongoDb.
+02/06/2018 21:29:27  New message received at: 02/06/2018 21:29:27 .Sending to MongoDB.
+02/06/2018 21:29:27  Parsing new message.
+02/06/2018 21:29:27  Sending new message to mongoDb.
+02/06/2018 21:29:27  Message sent to mongoDb.
+02/06/2018 21:29:32  New message received at: 02/06/2018 21:29:32 .Sending to MongoDB.
+02/06/2018 21:29:32  Parsing new message.
+02/06/2018 21:29:32  Sending new message to mongoDb.
+02/06/2018 21:29:32  Message sent to mongoDb.
+02/06/2018 21:29:37  New message received at: 02/06/2018 21:29:37 .Sending to MongoDB.
+02/06/2018 21:29:37  Parsing new message.
+02/06/2018 21:29:37  Sending new message to mongoDb.
+02/06/2018 21:29:37  Message sent to mongoDb.
+02/06/2018 21:29:42  New message received at: 02/06/2018 21:29:42 .Sending to MongoDB.
+02/06/2018 21:29:42  Parsing new message.
+02/06/2018 21:29:42  Sending new message to mongoDb.
+02/06/2018 21:29:42  Message sent to mongoDb.
+02/06/2018 21:29:47  New message received at: 02/06/2018 21:29:47 .Sending to MongoDB.
+02/06/2018 21:29:47  Parsing new message.
+02/06/2018 21:29:47  Sending new message to mongoDb.
+02/06/2018 21:29:47  Message sent to mongoDb.
+02/06/2018 21:29:52  New message received at: 02/06/2018 21:29:52 .Sending to MongoDB.
+02/06/2018 21:29:52  Parsing new message.
+02/06/2018 21:29:52  Sending new message to mongoDb.
+02/06/2018 21:29:52  Message sent to mongoDb.
+02/06/2018 21:29:57  New message received at: 02/06/2018 21:29:57 .Sending to MongoDB.
+02/06/2018 21:29:57  Parsing new message.
+02/06/2018 21:29:57  Sending new message to mongoDb.
+02/06/2018 21:29:57  Message sent to mongoDb.
+02/06/2018 21:30:02  New message received at: 02/06/2018 21:30:02 .Sending to MongoDB.
+02/06/2018 21:30:02  Parsing new message.
+02/06/2018 21:30:02  Sending new message to mongoDb.
+02/06/2018 21:30:02  Message sent to mongoDb.
+02/06/2018 21:30:04  Connection lost at: 02/06/2018 21:30:04 

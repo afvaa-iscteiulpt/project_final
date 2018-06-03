@@ -35,22 +35,33 @@ public class J1 {
 			}
 		}, 0, periodicity, TimeUnit.MINUTES);
 
-		logFile.log("Program finished.", TypeLog.END);
 	}
 
 	public static void startCicle(Log logFile, MongoDB mongo, Sybase sybase)
 			throws IOException, ParseException, SQLException {
 
-		logFile.log("Cycle started. Get data from MongoDB", TypeLog.NORMAL);
+		try {
+			logFile.log("Cycle started. Get data from MongoDB", TypeLog.NORMAL);
 
-		mongo.getDataFromMongoDb();
-		String sqlString = mongo.prepareDataToSybase();
+			mongo.getDataFromMongoDb();
+		
+			String sqlString = mongo.prepareDataToSybase();
 
-		// insert query to sybase
-		sybase.insertToSybase(sqlString);
+			if(!sqlString.equals("")) {
+				// insert query to sybase
+				sybase.insertToSybase(sqlString);
+				logFile.log("Data inserted to Sybase.", TypeLog.NORMAL);
 
-		logFile.log("Cycle ended. Data inserted to Sybase.", TypeLog.NORMAL);
-
+				mongo.deleteAllInCollection();
+				logFile.log("Cycle ended. Documents in collection deleted.", TypeLog.NORMAL);
+			} else {
+				System.out.println("No data to migrate.");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		
 	}
 
 }
