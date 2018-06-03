@@ -107,10 +107,13 @@ public class MongoDB {
 				humidity = (String) json.get("humidity");
 				temperature = (String) json.get("temperature");
 				date = (String) json.get("date");
+				
+				if (!humidity.equals("null")) humidity = "'" + humidity + "'";
+				if (!temperature.equals("null")) temperature = "'" + temperature + "'";
 
 				String timstamp = dateToTimeStamp(date);
 				
-				dataReadyforSybase += "('" + timstamp + "', '" + temperature + "', '" + humidity + "'),";
+				dataReadyforSybase += "('" + timstamp + "', " + temperature + ", " + humidity + "),";
 			}
 						
 		} finally {
