@@ -32,6 +32,7 @@ public class MongoDB {
 	private MongoCollection<Document> collection;
 	private Log logFile;
 	MongoCursor<Document> cursor;
+	MongoCursor<Document> cursorTmp;
 	private String dataReadyforSybase = "";
 	
 	
@@ -85,6 +86,7 @@ public class MongoDB {
 
 	public void getDataFromMongoDb() {
 		cursor = collection.find().iterator();
+		cursorTmp = collection.find().iterator();
 		System.out.println( collection.count() + " documents to migrate/delete.");
 	}
 
@@ -156,13 +158,11 @@ public class MongoDB {
 
 	public void deleteAllInCollection() {
 		
-		getDataFromMongoDb();
-		
-		while (cursor.hasNext()) {
-			collection.deleteOne(cursor.next());
+		while (cursorTmp.hasNext()) {
+			collection.deleteOne(cursorTmp.next());
 		}
 		
-		cursor.close();
+		cursorTmp.close();
 		
 	}
 }
