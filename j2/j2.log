@@ -1327,6 +1327,7 @@
 2018.06.01 02:43:07  Program finished.
 
 
+<<<<<<< HEAD
 2018.06.02 05:02:11  LogFile Ready.
 2018.06.02 05:02:11  ConfigFile Ready.
 2018.06.02 05:02:11  Starting program.
@@ -4157,3 +4158,18 @@
 03/06/2018 12:24:11  Parsing new message.
 03/06/2018 12:24:11  Sending new message to mongoDb.
 03/06/2018 12:24:11  Message sent to mongoDb.
+=======
+2018.06.03 10:56:28  LogFile Ready.
+2018.06.03 10:56:28  ConfigFile Ready.
+2018.06.03 10:56:28  Starting program.
+2018.06.03 10:56:28  Program started.
+2018.06.03 10:56:29  Connected to mongoDb
+2018.06.03 10:56:29  Connected to database 'sid_2018'
+2018.06.03 10:56:29  Connected to collection 'sensor_messages'
+2018.06.03 10:56:29  Connecting to broker: wss://iot.eclipse.org:443 with clientID: paho476297597249094sid18
+2018.06.03 10:56:30  Connected to broker.
+2018.06.03 10:56:30  Subscribing topic: sid23_lab_2018
+2018.06.03 10:56:30  Topic subscribed.
+2018.06.03 10:56:30  Listening for new messages
+2018.06.03 10:56:30  Program finished.
+>>>>>>> 5d820c1553c958049af23a8a2c72b7b707926e0e
